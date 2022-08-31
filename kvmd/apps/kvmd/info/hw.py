@@ -101,10 +101,7 @@ class HwInfoSubmanager(BaseInfoSubmanager):
 
     async def __get_throttling(self) -> Optional[Dict]:
         # https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=147781&start=50#p972790
-        flags = await self.__parse_vcgencmd(
-            arg="get_throttled",
-            parser=(lambda text: int(text.split("=")[-1].strip(), 16)),
-        )
+        flags = 0x00000000
         if flags is not None:
             return {
                 "raw_flags": flags,

@@ -297,7 +297,7 @@ class HttpServer:
             shutdown_timeout=1,
             access_log_format=access_log_format,
             print=self.__run_app_print,
-            loop=asyncio.get_event_loop(),
+            # loop=asyncio.get_event_loop(),
         )
 
     # =====
