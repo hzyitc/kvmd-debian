@@ -1,0 +1,4749 @@
+kvmd (3.85) unstable; urgency=low
+
+  * Bump version: 3.84 → 3.85
+  * pikvm/pikvm#604: support partition LABEL in bootconfig
+  * fixed name
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Thu, 21 Apr 2022 16:51:23 +0300
+
+kvmd (3.84) unstable; urgency=low
+
+  * Bump version: 3.83 → 3.84
+  * refactoring
+  * optional serial number
+  * refactoring
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Mon, 18 Apr 2022 12:47:37 +0300
+
+kvmd (3.83) unstable; urgency=low
+
+  * Bump version: 3.82 → 3.83
+  * configurable usb device version and max power
+  * locator plugin
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sun, 17 Apr 2022 22:26:39 +0300
+
+kvmd (3.82) unstable; urgency=low
+
+  * Bump version: 3.81 → 3.82
+  * fix
+  * fix
+  * deprecated rpi and zerow
+  * removed unnecessary proc.returncode
+  * refactoring
+  * refactoring
+  * refactoring
+  * refactoring
+  * refactoring
+  * refactoring
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Wed, 13 Apr 2022 14:05:40 +0300
+
+kvmd (3.81) unstable; urgency=low
+
+  * Bump version: 3.80 → 3.81
+  * create pst directory
+  * brought back --unlock option for backward compatibility
+  * bumped minimal kernel version
+  * refactoring
+  * added dir
+  * aiohelpers
+  * refactoring
+  * get rid of the otg-unlock helper
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Mon, 11 Apr 2022 07:27:17 +0300
+
+kvmd (3.80) unstable; urgency=low
+
+  * Bump version: 3.79 → 3.80
+  * fixed logging
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Wed, 6 Apr 2022 13:40:27 +0300
+
+kvmd (3.79) unstable; urgency=low
+
+  * Bump version: 3.78 → 3.79
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Wed, 6 Apr 2022 09:56:03 +0300
+
+kvmd (3.78) unstable; urgency=low
+
+  * Bump version: 3.77 → 3.78
+  * ustreamer version reduced to 4.13
+  * refactoring
+  * refactoring
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Wed, 6 Apr 2022 09:46:55 +0300
+
+kvmd (3.77) unstable; urgency=low
+
+  * Bump version: 3.76 → 3.77
+  * pst remount helper
+  * common helpers
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Tue, 5 Apr 2022 21:34:24 +0300
+
+kvmd (3.76) unstable; urgency=low
+
+  * Bump version: 3.75 → 3.76
+  * new sponsors
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Tue, 5 Apr 2022 09:15:47 +0300
+
+kvmd (3.75) unstable; urgency=low
+
+  * Bump version: 3.74 → 3.75
+  * fixed nan in janus video tag
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Mon, 4 Apr 2022 16:08:24 +0300
+
+kvmd (3.74) unstable; urgency=low
+
+  * Bump version: 3.73 → 3.74
+  * otgconf gpio plugin
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 2 Apr 2022 10:40:35 +0300
+
+kvmd (3.73) unstable; urgency=low
+
+  * Bump version: 3.72 → 3.73
+  * fixed missing module
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Fri, 1 Apr 2022 20:29:06 +0300
+
+kvmd (3.72) unstable; urgency=low
+
+  * Bump version: 3.71 → 3.72
+  * fixed sed
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Fri, 1 Apr 2022 08:53:46 +0300
+
+kvmd (3.71) unstable; urgency=low
+
+  * Bump version: 3.70 → 3.71
+  * disable pam_systemd* modules
+  * kvmd-otgconf: reset delay
+  * otg hid: close device if udc is unbound
+  * fixed dockerfile
+  * delay
+  * refactoring
+  * refactoring
+  * renamed config_path to profile_path
+  * disable only if enabled
+  * gitignored all coverages by wildcard
+  * kvmd-otgconf --reset-gadget
+  * otg msd: handle functions switching
+  * kvmd-otgconf
+  * write otg metainfo
+  * refactoring
+  * get rid of otgbind's cleanup and fixed hid for this
+  * removed UsbDeviceController() class
+  * simplified find_udc()
+  * improved otgbind
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Fri, 1 Apr 2022 08:33:26 +0300
+
+kvmd (3.70) unstable; urgency=low
+
+  * Bump version: 3.69 → 3.70
+  * new sponsor
+  * refactoring
+  * Update radius.py (#85)
+  * Update radius.py (#84)
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Tue, 29 Mar 2022 15:28:37 +0300
+
+kvmd (3.69) unstable; urgency=low
+
+  * Bump version: 3.68 → 3.69
+  * default values for the otg hid plugin
+  * default values for the serial hid plugin
+  * default atx gpio values
+  * x509 vnc by default
+  * removed unused network code and simplified configs
+  * don't spam about stopped kvmd-fan
+  * refactoring
+  * renamed radiussrv to radius
+  * Add radius authentication support  (#83)
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Mon, 28 Mar 2022 00:00:02 +0300
+
+kvmd (3.68) unstable; urgency=low
+
+  * Bump version: 3.67 → 3.68
+  * abstract platform io access package
+  * export fan state to prometheus
+  * test fix
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 26 Mar 2022 22:53:13 +0300
+
+kvmd (3.67) unstable; urgency=low
+
+  * Bump version: 3.66 → 3.67
+  * hide logout botton when auth is disabled
+  * fan monitoring
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 26 Mar 2022 00:55:34 +0300
+
+kvmd (3.66) unstable; urgency=low
+
+  * Bump version: 3.65 → 3.66
+  * fixed fan condition
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Wed, 23 Mar 2022 04:39:19 +0300
+
+kvmd (3.65) unstable; urgency=low
+
+  * Bump version: 3.64 → 3.65
+  * v3 fan config
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Wed, 23 Mar 2022 01:38:15 +0300
+
+kvmd (3.64) unstable; urgency=low
+
+  * Bump version: 3.63 → 3.64
+  * added missing data-force-hide-menu attribute for the atx buttons
+  * pikvm/pikvm#599: fixed webui windows oversizing
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Tue, 22 Mar 2022 03:06:37 +0300
+
+kvmd (3.63) unstable; urgency=low
+
+  * Bump version: 3.62 → 3.63
+  * updated deps
+  * Fix kvmd-nginx reload. (#82)
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Mon, 21 Mar 2022 15:03:29 +0300
+
+kvmd (3.62) unstable; urgency=low
+
+  * Bump version: 3.61 → 3.62
+  * disabled paypal
+  * vcgencmd measure_temp and thermal_zone0 are the same
+  * new sponsor
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sun, 20 Mar 2022 04:53:50 +0300
+
+kvmd (3.61) unstable; urgency=low
+
+  * Bump version: 3.60 → 3.61
+  * fixed indent
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Tue, 15 Mar 2022 19:31:02 +0300
+
+kvmd (3.60) unstable; urgency=low
+
+  * Bump version: 3.59 → 3.60
+  * max h264 kbps is 2000
+  * Add hostapd for hotspot AP at first boot (#81)
+  * fix
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Tue, 15 Mar 2022 19:27:11 +0300
+
+kvmd (3.59) unstable; urgency=low
+
+  * Bump version: 3.58 → 3.59
+  * pikvm/pikvm#616: secure text switch
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Fri, 11 Mar 2022 21:18:25 +0300
+
+kvmd (3.58) unstable; urgency=low
+
+  * Bump version: 3.57 → 3.58
+  * fixed ocr langs parameter
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Thu, 10 Mar 2022 23:24:27 +0300
+
+kvmd (3.57) unstable; urgency=low
+
+  * Bump version: 3.56 → 3.57
+  * new sponsor
+  * ocr is beta
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Tue, 1 Mar 2022 21:48:42 +0300
+
+kvmd (3.56) unstable; urgency=low
+
+  * Bump version: 3.55 → 3.56
+  * increased ocr timeout
+  * fixed ocr selection in firefox
+  * fix
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Thu, 24 Feb 2022 12:41:41 +0300
+
+kvmd (3.55) unstable; urgency=low
+
+  * Bump version: 3.54 → 3.55
+  * new sponsors
+  * ocr
+  * new sponsor
+  * refactoring
+  * new sponsor
+  * Fixed ocr image cropping
+  * tesseract as opt
+  * refactoring
+  * refactoring
+  * PWAY plugin fix: Normalize pin/channel index to 0-based (#78)
+  * bumped max python version in setup.py
+  * new sponsor
+  * new sponsors
+  * show default values for --help
+  * refactoring
+  * RNDIS Version 5 for Windows XP, automatic driver load on Windows using ncm (#77)
+  * pikvm/kvmd#66: OCR API
+  * refactoring
+  * refactoring
+  * new sponsor
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Mon, 21 Feb 2022 04:23:38 +0300
+
+kvmd (3.54) unstable; urgency=low
+
+  * Bump version: 3.53 → 3.54
+  * fix
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 8 Jan 2022 18:24:40 +0300
+
+kvmd (3.53) unstable; urgency=low
+
+  * Bump version: 3.52 → 3.53
+  * restore motd
+  * fixed remap() type to int
+  * new sponsors
+  * copyright bump
+  * fixed deprecation warning
+  * fix
+  * Make kvmd-net start/stop work without error while changing configuration (#76)
+  * bump bcdDevice only for rndis
+  * fixed pikvm/pikvm#594: added en-us-altgr-intl keymap
+  * Improved RNDIS configuration
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 8 Jan 2022 18:06:20 +0300
+
+kvmd (3.52) unstable; urgency=low
+
+  * Bump version: 3.51 → 3.52
+  * fixed deps
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Fri, 31 Dec 2021 14:52:09 +0300
+
+kvmd (3.51) unstable; urgency=low
+
+  * Bump version: 3.50 → 3.51
+  * using python 3.10 for pkg
+  * libc module
+  * changed name
+  * refactoring
+  * using only find_library()
+  * python 3.10
+  * python update
+  * new sponsors
+  * new sponsors
+  * new sponsor
+  * new sponsors
+  * new sponsors
+  * new sponsor
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Fri, 31 Dec 2021 01:29:53 +0300
+
+kvmd (3.50) unstable; urgency=low
+
+  * Bump version: 3.49 → 3.50
+  * fixed "got Future attached to a different loop"
+  * changed h264 range to actual values
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sun, 28 Nov 2021 08:40:39 +0300
+
+kvmd (3.49) unstable; urgency=low
+
+  * Bump version: 3.48 → 3.49
+  * pway fixes
+  * PWAY 16-port SH1601A Driver (#67)
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sun, 21 Nov 2021 21:54:22 +0300
+
+kvmd (3.48) unstable; urgency=low
+
+  * Bump version: 3.47 → 3.48
+  * fixed bootconfig ro
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 20 Nov 2021 05:29:49 +0300
+
+kvmd (3.47) unstable; urgency=low
+
+  * Bump version: 3.46 → 3.47
+  * added zero 2 w support
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 20 Nov 2021 01:36:23 +0300
+
+kvmd (3.46) unstable; urgency=low
+
+  * Bump version: 3.45 → 3.46
+  * kvmd is a member of video group
+  * new sponsors
+  * testenv https redirect
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Thu, 18 Nov 2021 01:00:36 +0300
+
+kvmd (3.45) unstable; urgency=low
+
+  * Bump version: 3.44 → 3.45
+  * renamed scripts directory
+  * Update kvmd-bootconfig (#74)
+  * listen configs
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Fri, 12 Nov 2021 03:55:28 +0300
+
+kvmd (3.44) unstable; urgency=low
+
+  * Bump version: 3.43 → 3.44
+  * pikvm/pikvm#73: run custom bootconfig scripts from /etc/kvmd/bootconfig.d
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Mon, 8 Nov 2021 04:27:35 +0300
+
+kvmd (3.43) unstable; urgency=low
+
+  * Bump version: 3.42 → 3.43
+  * move kvmd-udev-hdmiusb-check to the platform package
+  * new sponsor
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Mon, 8 Nov 2021 01:33:05 +0300
+
+kvmd (3.42) unstable; urgency=low
+
+  * Bump version: 3.41 → 3.42
+  * display edid info after loading
+  * new sponsors
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sun, 7 Nov 2021 16:09:13 +0300
+
+kvmd (3.41) unstable; urgency=low
+
+  * Bump version: 3.40 → 3.41
+  * pikvm/pikvm#531: improved fullscreen focus
+  * new sponsor
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Thu, 4 Nov 2021 02:43:23 +0300
+
+kvmd (3.40) unstable; urgency=low
+
+  * Bump version: 3.39 → 3.40
+  * fixed ENABLE_OTG_SERIAL
+  * refactoring
+  * ENABLE_OTG_SERIAL
+  * new sponsor
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 30 Oct 2021 12:54:03 +0300
+
+kvmd (3.39) unstable; urgency=low
+
+  * Bump version: 3.38 → 3.39
+  * new sponsor
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Thu, 28 Oct 2021 14:13:04 +0300
+
+kvmd (3.38) unstable; urgency=low
+
+  * Bump version: 3.37 → 3.38
+  * disable vns memsinks in testenv
+  * pikvm/pikvm#521: fixed ipv4-only binding for vnc
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Thu, 28 Oct 2021 01:24:28 +0300
+
+kvmd (3.37) unstable; urgency=low
+
+  * Bump version: 3.36 → 3.37
+  * FIRST_BOOT
+  * using override.d
+  * yaml supports include dirs
+  * pikvm/pikvm#107: change ssh port in pikvm.txt
+  * new sponsor
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Wed, 27 Oct 2021 18:20:19 +0300
+
+kvmd (3.36) unstable; urgency=low
+
+  * Bump version: 3.35 → 3.36
+  * prefix for log_process()
+  * pikvm/pikvm#457: custom commands driver
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sun, 24 Oct 2021 12:11:02 +0300
+
+kvmd (3.35) unstable; urgency=low
+
+  * Bump version: 3.34 → 3.35
+  * pikvm/pikvm#506: improved delayed sliders behaviour
+  * improved slider api
+  * updated links
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 23 Oct 2021 11:34:25 +0300
+
+kvmd (3.34) unstable; urgency=low
+
+  * Bump version: 3.33 → 3.34
+  * removed wrong ntp fix
+  * comments
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Tue, 19 Oct 2021 08:18:27 +0300
+
+kvmd (3.33) unstable; urgency=low
+
+  * Bump version: 3.32 → 3.33
+  * kvmd-bootconfig prototype
+  * refactoring
+  * call display_callback after slider.setOnUpDelayed
+  * refactoring
+  * refactoring
+  * removed unused code
+  * slider setValue/getValue
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Tue, 19 Oct 2021 04:34:56 +0300
+
+kvmd (3.32) unstable; urgency=low
+
+  * Bump version: 3.31 → 3.32
+  * files.pikvm.org
+  * documentation link
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sun, 17 Oct 2021 08:06:36 +0300
+
+kvmd (3.31) unstable; urgency=low
+
+  * Bump version: 3.30 → 3.31
+  * new sponsor
+  * improved apple detection
+  * error message about gpio mockup
+  * DOCKER variable
+  * ignored config.mk
+  * new sponsor
+  * new sponsor
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 16 Oct 2021 04:31:21 +0300
+
+kvmd (3.30) unstable; urgency=low
+
+  * Bump version: 3.29 → 3.30
+  * include root config.mk
+  * moved docs
+  * new sponsors
+  * refactoring
+  * don't show message about keyboards not working when you are following its recomendations to fix it (#70)
+  * new sponsor
+  * moved user.css to the last
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Thu, 14 Oct 2021 08:04:21 +0300
+
+kvmd (3.29) unstable; urgency=low
+
+  * Bump version: 3.28 → 3.29
+  * fixed ntp sed
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Mon, 4 Oct 2021 19:58:22 +0300
+
+kvmd (3.28) unstable; urgency=low
+
+  * Bump version: 3.27 → 3.28
+  * ntp workaround
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Mon, 4 Oct 2021 19:16:59 +0300
+
+kvmd (3.27) unstable; urgency=low
+
+  * Bump version: 3.26 → 3.27
+  * xk-hk4401: fixed regexp
+  * style fix
+  * pikvm/pikvm#481: check webrtc caps
+  * style fixes
+  * Added driver for xh_hk4401 4 port HDMI/USB KVM (#69)
+  * details/summary for future use
+  * configurable mouse polling rate
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sun, 3 Oct 2021 01:57:12 +0300
+
+kvmd (3.26) unstable; urgency=low
+
+  * Bump version: 3.25 → 3.26
+  * renamed device to rtc
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sun, 26 Sep 2021 09:33:04 +0300
+
+kvmd (3.25) unstable; urgency=low
+
+  * Bump version: 3.24 → 3.25
+  * parse yes/no/on/off as string
+  * don't pulse ipmi gpio
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sun, 26 Sep 2021 08:54:05 +0300
+
+kvmd (3.24) unstable; urgency=low
+
+  * Bump version: 3.23 → 3.24
+  * stable
+  * refactoring
+  * fix
+  * aioproc: use killpg() for SIGKILL
+  * rtc watchdog for v3
+  * new sponsors
+  * record atx actions
+  * rewrited #65
+  * Implement macro recording for gpio (#65)
+  * lint fix
+  * pikvm/kvmd#63: centered blue dot by cursor, added transparency
+  * kvmd/kvmd#62: alternative implementation
+  * refactoring, regen
+  * Add tooltips to SysRq shortcuts (#64)
+  * small rebranding
+  * improved pins validation
+  * fix
+  * refactoring
+  * string pins
+  * fixed msg
+  * refactoring
+  * new sponsors
+  * new sponsor
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 25 Sep 2021 18:29:15 +0300
+
+kvmd (3.23) unstable; urgency=low
+
+  * Bump version: 3.22 → 3.23
+  * configurable bcdUSB
+  * new sponsor
+  * unified udc code and automatic driver detection
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Tue, 31 Aug 2021 18:14:52 +0300
+
+kvmd (3.22) unstable; urgency=low
+
+  * Bump version: 3.21 → 3.22
+  * new sponsor
+  * new sponsor
+  * Remove wiringpi and use already included libgpiod (#59)
+  * fixed pillow dep
+  * new sponsor
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Fri, 27 Aug 2021 00:14:45 +0300
+
+kvmd (3.21) unstable; urgency=low
+
+  * Bump version: 3.20 → 3.21
+  * improved otg messages
+  * set wakeup_on_write as optional flag
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 21 Aug 2021 18:57:26 +0300
+
+kvmd (3.20) unstable; urgency=low
+
+  * Bump version: 3.19 → 3.20
+  * lint fix
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 21 Aug 2021 12:48:22 +0300
+
+kvmd (3.19) unstable; urgency=low
+
+  * Bump version: 3.18 → 3.19
+  * bumped libgpiod for testenv
+  * option to enable remote wakeup
+  * new sponsor
+  * new sponsor
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 21 Aug 2021 12:22:50 +0300
+
+kvmd (3.18) unstable; urgency=low
+
+  * Bump version: 3.17 → 3.18
+  * pikvm/pikvm#281: adjustable relative mouse sensitivity
+  * upstream HID + win98 patch instad of the fork
+  * win95 runtime switching
+  * Merge branch 'servo'
+  * minor servo fixes
+  * Implement servo angles (#58)
+  * servo template
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Tue, 17 Aug 2021 15:13:52 +0300
+
+kvmd (3.17) unstable; urgency=low
+
+  * Bump version: 3.16 → 3.17
+  * fixed win98 again on arduino
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 14 Aug 2021 10:40:47 +0300
+
+kvmd (3.16) unstable; urgency=low
+
+  * Bump version: 3.15 → 3.16
+  * fixed pikvm/pikvm#159: workaround for windows 98 absolute mouse bug
+  * new sponsor
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 14 Aug 2021 09:32:36 +0300
+
+kvmd (3.15) unstable; urgency=low
+
+  * Bump version: 3.14 → 3.15
+  * refactoring
+  * Implement button push using servo motors controlled via pwm (#55)
+  * new sponsor
+  * bindSimpleSwitch()
+  * save hid squash value
+  * new sponsor
+  * refactoring
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Sat, 14 Aug 2021 03:38:03 +0300
+
+kvmd (3.14) unstable; urgency=low
+
+  * Bump version: 3.13 → 3.14
+  * pikvm/pikvm#245: using sbin for some binaries
+  * new sponsor
+  * new sponsor
+  * atx confirmation
+  * new sponsor
+  * new sponsor
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Wed, 11 Aug 2021 17:11:28 +0300
+
+kvmd (3.13) unstable; urgency=low
+
+  * Bump version: 3.12 → 3.13
+  * new sponsors
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Mon, 2 Aug 2021 23:50:22 +0300
+
+kvmd (3.12) unstable; urgency=low
+
+  * Bump version: 3.11 → 3.12
+  * rngd fix
+  * note
+  * fix
+  * upload image by url in web ui
+  * css fix
+  * changed /msd/write_remote format
+  * dark background for pak textarea
+  * improved input file styling
+  * new sponsor
+  * send error in streaming response
+  * refactoring
+  * new sponsor
+  * removed max_power option, added todo about remote wakeup
+  * input file css for future needs
+  * more compact msd menu
+  * refactoring
+  * new sponsors
+  * refactoring
+  * get rid of multipart in /msd/write
+  * show remote uploading file
+  * another msd js fixes
+  * fixed el variable
+  * refactoring
+  * ui fix
+  * /msd/write_remote handle
+  * dockerignored hid libs
+  * refactoring
+  * fixed long shutdown
+  * refactoring
+  * fixed /share/css/user.css nginx location
+  * start_streaming()
+  * .editorconfig
+  * new sponsors
+  * dual mouse mode
+  * disabled instead of empty string
+  * fix
+  * separate keyboard and mouse output handling
+  * refactoring
+  * bumped hid-project revision
+  * rewrite otg hid
+  * fixed process waiting
+  * optional no_out_endpoint
+  * new sponsor
+  * new sponsor
+  * link to msd doc
+
+ -- Maxim Devaev <mdevaev@gmail.com>  Mon, 2 Aug 2021 23:43:26 +0300
+
+kvmd (3.11) unstable; urgency=low
+
+  * Bump version: 3.10 → 3.11
+  * increased shortcut press time to 100ms
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 17 Jul 2021 03:39:02 +0300
+
+kvmd (3.10) unstable; urgency=low
+
+  * Bump version: 3.9 → 3.10
+  * moved wol to gpio
+  * link to mouse modes
+  * clean-all
+  * new cdc patch
+  * updated hid-shut-up.patch
+  * new sponsors
+  * new sponsors
+  * separate shortcuts menu
+  * two keyboard buttons
+  * renamed shortcuts to keyboard, moved gpio
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 17 Jul 2021 01:58:21 +0300
+
+kvmd (3.9) unstable; urgency=low
+
+  * Bump version: 3.8 → 3.9
+  * fixed HID repo
+  * refactoring
+  * save pak settings
+  * new sponsor
+  * new sponsor
+  * moved some patches to upstream
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 14 Jul 2021 16:55:07 +0300
+
+kvmd (3.8) unstable; urgency=low
+
+  * Bump version: 3.7 → 3.8
+  * new sponsor
+  * fixed otg mouse for apple m1
+  * fixed absolute mouse for apple recovery
+  * fixed boot mouse for apple recovery
+  * renamed patches
+  * new sponsor
+  * mouse patch 2
+  * lint fixes
+  * fixed boot mouse in mac boot manager
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 10 Jul 2021 19:52:43 +0300
+
+kvmd (3.7) unstable; urgency=low
+
+  * Bump version: 3.6 → 3.7
+  * new sponsor
+  * pikvm/pikvm#373: added yen key
+  * webrtc link
+  * new sponsors
+  * save video mode
+  * new sponsor
+  * new sponsors
+  * about fix
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 4 Jul 2021 02:35:58 +0300
+
+kvmd (3.6) unstable; urgency=low
+
+  * Bump version: 3.5 → 3.6
+  * dynamic
+  * make janus-static work for web ui
+  * new sponsors
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 17 Jun 2021 19:23:23 +0300
+
+kvmd (3.5) unstable; urgency=low
+
+  * Bump version: 3.4 → 3.5
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 11 Jun 2021 17:53:32 +0300
+
+kvmd (3.4) unstable; urgency=low
+
+  * Bump version: 3.3 → 3.4
+  * supported xor-mapped-address
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 11 Jun 2021 17:47:39 +0300
+
+kvmd (3.3) unstable; urgency=low
+
+  * Bump version: 3.2 → 3.3
+  * bump
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 10 Jun 2021 19:40:07 +0300
+
+kvmd (3.2) unstable; urgency=low
+
+  * Bump version: 3.1 → 3.2
+  * ustreamer bump
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 10 Jun 2021 19:14:45 +0300
+
+kvmd (3.1) unstable; urgency=low
+
+  * Bump version: 3.0 → 3.1
+  * bump ustreamer dep
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 10 Jun 2021 19:08:45 +0300
+
+kvmd (3.0) unstable; urgency=low
+
+  * Bump version: 2.86 → 3.0
+  * bump ustreamer
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 10 Jun 2021 19:00:50 +0300
+
+kvmd (2.86) unstable; urgency=low
+
+  * Bump version: 2.85 → 2.86
+  * new sponsor
+  * show streamer name in window title
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 10 Jun 2021 16:34:03 +0300
+
+kvmd (2.85) unstable; urgency=low
+
+  * Bump version: 2.84 → 2.85
+  * fixed null __handle
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 9 Jun 2021 23:30:26 +0300
+
+kvmd (2.84) unstable; urgency=low
+
+  * Bump version: 2.83 → 2.84
+  * new sponsor
+  * janus ipv6
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 9 Jun 2021 22:31:28 +0300
+
+kvmd (2.83) unstable; urgency=low
+
+  * Bump version: 2.82 → 2.83
+  * lint fix
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 8 Jun 2021 22:23:45 +0300
+
+kvmd (2.82) unstable; urgency=low
+
+  * Bump version: 2.81 → 2.82
+  * new sponsor
+  * pikvm/pikvm#321: server-side uploading counters
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 8 Jun 2021 21:11:33 +0300
+
+kvmd (2.81) unstable; urgency=low
+
+  * Bump version: 2.80 → 2.81
+  * new sponsors
+  * improved janus error handling
+  * rename
+  * new sponsor
+  * new sponsor
+  * new sponsor
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 3 Jun 2021 19:23:05 +0300
+
+kvmd (2.80) unstable; urgency=low
+
+  * Bump version: 2.79 → 2.80
+  * sync
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 26 May 2021 16:03:15 +0300
+
+kvmd (2.79) unstable; urgency=low
+
+  * Bump version: 2.78 → 2.79
+  * typo
+  * speed up msd
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 26 May 2021 15:57:25 +0300
+
+kvmd (2.78) unstable; urgency=low
+
+  * Bump version: 2.77 → 2.78
+  * ipv6 stun
+  * signals handling
+  * lint fix
+  * rewrited stun
+  * reduced spi freq to 100k
+  * pikvm/pikvm#208: permanent image
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 26 May 2021 01:51:04 +0300
+
+kvmd (2.77) unstable; urgency=low
+
+  * Bump version: 2.76 → 2.77
+  * disabled ice lite
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 24 May 2021 14:14:57 +0300
+
+kvmd (2.76) unstable; urgency=low
+
+  * Bump version: 2.75 → 2.76
+  * lint fix
+  * refactoring
+  * show janus error in the status line
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 24 May 2021 09:13:42 +0300
+
+kvmd (2.75) unstable; urgency=low
+
+  * Bump version: 2.74 → 2.75
+  * janus service fixes
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 24 May 2021 07:12:34 +0300
+
+kvmd (2.74) unstable; urgency=low
+
+  * Bump version: 2.73 → 2.74
+  * perms fix
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 24 May 2021 06:50:19 +0300
+
+kvmd (2.73) unstable; urgency=low
+
+  * Bump version: 2.72 → 2.73
+  * lint fix
+  * janus runner draft
+  * Fix typo in error message (#51)
+  * new sponsors
+  * new sponsors
+  * janus tweaks
+  * new sponsors
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 24 May 2021 05:09:55 +0300
+
+kvmd (2.72) unstable; urgency=low
+
+  * Bump version: 2.71 → 2.72
+  * fixed systemd bug: systemd >= 248.3-2
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 20 May 2021 08:41:06 +0300
+
+kvmd (2.71) unstable; urgency=low
+
+  * Bump version: 2.70 → 2.71
+  * bull
+  * pikvm/pikvm#306: replace quotes for hid print
+  * removed hid-print validation from js side
+  * new sponsors
+  * fix
+  * h264 bitrate slider
+  * common table for switches
+  * new sponsor
+  * Fixed pikvm/pikvm#307: mute hid switch
+  * compact system menu
+  * new sponsor
+  * lint fix
+  * janus js part
+  * tesmart state_poll=10
+  * new sponsors
+  * async timeouts
+  * fix socket timeout/zero based issues in tesmart (#49)
+  * refactoring
+  * adapter.js location
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 20 May 2021 07:36:59 +0300
+
+kvmd (2.70) unstable; urgency=low
+
+  * Bump version: 2.69 → 2.70
+  * fixed bt hid
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 17 May 2021 09:33:00 +0300
+
+kvmd (2.69) unstable; urgency=low
+
+  * Bump version: 2.68 → 2.69
+  * html webrtc stubs
+  * dynamic import
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 17 May 2021 00:21:06 +0300
+
+kvmd (2.68) unstable; urgency=low
+
+  * Bump version: 2.67 → 2.68
+  * tesmart: check channel after switching
+  * new sponsors
+  * tesmart rewrite
+  * Plugin support for TESMART switch - tesmart.py (#47)
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 16 May 2021 06:17:21 +0300
+
+kvmd (2.67) unstable; urgency=low
+
+  * Bump version: 2.66 → 2.67
+  * new sponsor
+  * janus stubs
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 14 May 2021 05:52:16 +0300
+
+kvmd (2.66) unstable; urgency=low
+
+  * Bump version: 2.65 → 2.66
+  * quick workaround for broken %b
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 12 May 2021 12:36:30 +0300
+
+kvmd (2.65) unstable; urgency=low
+
+  * Bump version: 2.64 → 2.65
+  * new protocol for ezcoo usb3
+  * refactoring
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 9 May 2021 21:57:40 +0300
+
+kvmd (2.64) unstable; urgency=low
+
+  * Bump version: 2.63 → 2.64
+  * new sponsors
+  * added janus.js location
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 9 May 2021 02:37:06 +0300
+
+kvmd (2.63) unstable; urgency=low
+
+  * Bump version: 2.62 → 2.63
+  * lint fix
+  * stream refactoring, passing janus state
+  * option to ignore some keys
+  * new sponsors
+  * fix
+  * video tag
+  * important
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 6 May 2021 23:08:03 +0300
+
+kvmd (2.62) unstable; urgency=low
+
+  * Bump version: 2.61 → 2.62
+  * usermod
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 2 May 2021 04:29:37 +0300
+
+kvmd (2.61) unstable; urgency=low
+
+  * Bump version: 2.60 → 2.61
+  * janus nginx configs and user
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 2 May 2021 04:03:16 +0300
+
+kvmd (2.60) unstable; urgency=low
+
+  * Bump version: 2.59 → 2.60
+  * new sponsor
+  * false on dbus error
+  * kvmd-janus.service stub
+  * janus manifest
+  * keyboard_cap is unused
+  * refactoring
+  * new sponsor
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 1 May 2021 04:07:04 +0300
+
+kvmd (2.59) unstable; urgency=low
+
+  * Bump version: 2.58 → 2.59
+  * new sponsor
+  * don't fail on iptables lock
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 26 Apr 2021 20:36:23 +0300
+
+kvmd (2.58) unstable; urgency=low
+
+  * Bump version: 2.57 → 2.58
+  * fixed broken pillow dependency
+  * new sponsors
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 25 Apr 2021 04:16:51 +0300
+
+kvmd (2.57) unstable; urgency=low
+
+  * Bump version: 2.56 → 2.57
+  * new sponsors
+  * fixed button title
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 23 Apr 2021 21:02:35 +0300
+
+kvmd (2.56) unstable; urgency=low
+
+  * Bump version: 2.55 → 2.56
+  * button to reduce the window
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 23 Apr 2021 19:21:00 +0300
+
+kvmd (2.55) unstable; urgency=low
+
+  * Bump version: 2.54 → 2.55
+  * increased arduino period
+  * improved mac boot keys handling
+  * new sponsors
+  * some stream fixes
+  * reset spi before uploading the firmware
+  * tuned mcu timings
+  * improved mac uefi keys handling
+  * new sponsors
+  * issue #17: prevent race on checking stream source
+  * simplified
+  * new sponsors
+  * new sponsors
+  * new sponsor
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 23 Apr 2021 16:00:00 +0300
+
+kvmd (2.54) unstable; urgency=low
+
+  * Bump version: 2.53 → 2.54
+  * disabled cache for static files
+  * spell fix
+  * clean yaml error message
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 18 Apr 2021 21:51:15 +0300
+
+kvmd (2.53) unstable; urgency=low
+
+  * Bump version: 2.52 → 2.53
+  * terminal window
+  * fixed visibility check in showWindow
+  * using modals over full screen
+  * hidden window header in full screen mode
+  * new sponsors
+  * removed stream close confirm, added tip for msd
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 17 Apr 2021 15:42:04 +0300
+
+kvmd (2.52) unstable; urgency=low
+
+  * Bump version: 2.51 → 2.52
+  * pikvm/pikvm#231, pikvm/pikvm#279: pak options
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 16 Apr 2021 23:46:58 +0300
+
+kvmd (2.51) unstable; urgency=low
+
+  * Bump version: 2.50 → 2.51
+  * new sponsors
+  * fixed full screen mode in safari
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 16 Apr 2021 12:49:26 +0300
+
+kvmd (2.50) unstable; urgency=low
+
+  * Bump version: 2.49 → 2.50
+  * deps again
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 15 Apr 2021 18:31:54 +0300
+
+kvmd (2.49) unstable; urgency=low
+
+  * Bump version: 2.48 → 2.49
+  * deps
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 15 Apr 2021 18:04:44 +0300
+
+kvmd (2.48) unstable; urgency=low
+
+  * Bump version: 2.47 → 2.48
+  * fixed deps
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 15 Apr 2021 17:33:46 +0300
+
+kvmd (2.47) unstable; urgency=low
+
+  * Bump version: 2.46 → 2.47
+  * python was fixed
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 15 Apr 2021 17:27:17 +0300
+
+kvmd (2.46) unstable; urgency=low
+
+  * Bump version: 2.45 → 2.46
+  * aiohttp hotfix
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 15 Apr 2021 14:25:55 +0300
+
+kvmd (2.45) unstable; urgency=low
+
+  * Bump version: 2.44 → 2.45
+  * https://bugs.archlinux.org/task/70438
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 14 Apr 2021 11:32:22 +0300
+
+kvmd (2.44) unstable; urgency=low
+
+  * Bump version: 2.43 → 2.44
+  * python 3.9.3 is broken
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 14 Apr 2021 11:09:53 +0300
+
+kvmd (2.43) unstable; urgency=low
+
+  * Bump version: 2.42 → 2.43
+  * fixed pikvm/pikvm#275: don't overwrite ssl
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 13 Apr 2021 18:46:24 +0300
+
+kvmd (2.42) unstable; urgency=low
+
+  * Bump version: 2.41 → 2.42
+  * keep window ratio on reducing
+  * refactoring
+  * simplified mouse code, fixed some bugs
+  * Add form tag to allow autocomplete of username and password. (#42)
+  * Rework of #39 (#40)
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 13 Apr 2021 11:13:39 +0300
+
+kvmd (2.41) unstable; urgency=low
+
+  * Bump version: 2.40 → 2.41
+  * refactoring
+  * ipmi gpio driver uses ipmitool
+  * pass env to aioproc
+  * async gpio plugins
+  * ipmi pseudo-gpio driver
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 10 Apr 2021 12:05:18 +0300
+
+kvmd (2.40) unstable; urgency=low
+
+  * Bump version: 2.39 → 2.40
+  * fixed certs checking in pkgbuild
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 8 Apr 2021 04:33:05 +0300
+
+kvmd (2.39) unstable; urgency=low
+
+  * Bump version: 2.38 → 2.39
+  * enabled jpeg memsink for all rpi3, rpi4 and generic boards
+  * Merge pull request #38 from MSumulong/patch-1
+  * Fix /etc/kvmd/{nginx,vnc}/ssl directory creation
+  * new sponsor
+  * refactoring
+  * new sponsor
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 8 Apr 2021 02:55:48 +0300
+
+kvmd (2.38) unstable; urgency=low
+
+  * Bump version: 2.37 → 2.38
+  * new sponsors
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 3 Apr 2021 02:13:15 +0300
+
+kvmd (2.37) unstable; urgency=low
+
+  * Bump version: 2.36 → 2.37
+  * fixed mouse remap
+  * forgotten v3 sudoers
+  * user defined css
+  * new sponsor
+  * mouse input range
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 26 Mar 2021 21:43:40 +0300
+
+kvmd (2.36) unstable; urgency=low
+
+  * Bump version: 2.35 → 2.36
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 26 Mar 2021 00:01:53 +0300
+
+kvmd (2.35) unstable; urgency=low
+
+  * Bump version: 2.34 → 2.35
+  * enabled v3 clock
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 22 Mar 2021 00:49:47 +0300
+
+kvmd (2.34) unstable; urgency=low
+
+  * Bump version: 2.33 → 2.34
+  * new sponsor
+  * new sponsors
+  * new sponsor
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 21 Mar 2021 18:10:19 +0300
+
+kvmd (2.33) unstable; urgency=low
+
+  * Bump version: 2.32 → 2.33
+  * new sponsors
+  * Merge branch 'v3'
+  * fixed missing h264_gop param
+  * new sponsor
+  * new sponsor
+  * new sponsor
+  * v3 package
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 16 Mar 2021 15:42:34 +0300
+
+kvmd (2.32) unstable; urgency=low
+
+  * Bump version: 2.31 → 2.32
+  * new sponsor
+  * ustreamer without dict caching
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 14 Mar 2021 18:58:59 +0300
+
+kvmd (2.31) unstable; urgency=low
+
+  * Bump version: 2.30 → 2.31
+  * new sponsors
+  * better mac cmd handling
+  * new sponsors
+  * new sponsor
+  * enabled h264 for v2-hdmi-rpi4
+  * min kernel is 5.10.22-2
+  * new sponsor
+  * fixed ws event CLOSED
+  * new sponsors
+  * new sponsor
+  * lint fix
+  * npm workaround
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 13 Mar 2021 20:21:29 +0300
+
+kvmd (2.30) unstable; urgency=low
+
+  * Bump version: 2.29 → 2.30
+  * fixed pikvm/pikvm#223: confirm stream window closing
+  * pikvm/pikvm#224: disable serial0 console
+  * lint fix
+  * new sponsors
+  * send i-frame first
+  * new sponsor
+  * new sponsor
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 6 Mar 2021 16:26:43 +0300
+
+kvmd (2.29) unstable; urgency=low
+
+  * Bump version: 2.28 → 2.29
+  * post_install is post_upgrade now
+  * new sponsor
+  * new sponsors
+  * new sponsor
+  * new sponsors
+  * fixed copy
+  * new sponsor
+  * new sponsors
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 1 Mar 2021 09:38:08 +0300
+
+kvmd (2.28) unstable; urgency=low
+
+  * Bump version: 2.27 → 2.28
+  * dep fix
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 21 Feb 2021 03:08:24 +0300
+
+kvmd (2.27) unstable; urgency=low
+
+  * Bump version: 2.26 → 2.27
+  * update deps
+  * new sponsors
+  * Merge pull request #29 from fblaese/ipv6
+  * Make kvmd webui available via IPv6
+  * new sponsor
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 21 Feb 2021 03:02:42 +0300
+
+kvmd (2.26) unstable; urgency=low
+
+  * Bump version: 2.25 → 2.26
+  * disabled h264 params
+  * ustreamer == 3.17
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 18 Feb 2021 07:21:07 +0300
+
+kvmd (2.25) unstable; urgency=low
+
+  * Bump version: 2.24 → 2.25
+  * additional cmd options
+  * otgnet forwarding
+  * Fixed pikvm/pikvm#189: verbose removing message
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 17 Feb 2021 02:25:50 +0300
+
+kvmd (2.24) unstable; urgency=low
+
+  * Bump version: 2.23 → 2.24
+  * crutch for broken linux-firmware
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 15 Feb 2021 06:39:43 +0300
+
+kvmd (2.23) unstable; urgency=low
+
+  * Bump version: 2.22 → 2.23
+  * fixed Makefile for vnc ssl
+  * enbaled x509 vnc by default
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 15 Feb 2021 05:53:04 +0300
+
+kvmd (2.22) unstable; urgency=low
+
+  * Bump version: 2.21 → 2.22
+  * fixed package ssl perms
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 15 Feb 2021 05:13:00 +0300
+
+kvmd (2.21) unstable; urgency=low
+
+  * Bump version: 2.20 → 2.21
+  * fixed cert perms
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 15 Feb 2021 04:57:29 +0300
+
+kvmd (2.20) unstable; urgency=low
+
+  * Bump version: 2.19 → 2.20
+  * vnc gencert
+  * new sponsors
+  * new sponsor
+  * new sponsor
+  * new sponsors
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 15 Feb 2021 04:17:18 +0300
+
+kvmd (2.19) unstable; urgency=low
+
+  * Bump version: 2.18 → 2.19
+  * temporary disabled x509
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 12 Feb 2021 21:21:56 +0300
+
+kvmd (2.18) unstable; urgency=low
+
+  * Bump version: 2.17 → 2.18
+  * new sponsor
+  * install certs for tox
+  * enabled x509 vnc
+  * refactoring of x509
+  * commented memsinks
+  * Implementing X509Plain VeNCrypt security type 262 in place of TLSPlain security type 259. This is a fix for both bVNC on iOS and for devices that do not support Anonymous Diffie Hellman ciphers (e.g. Android past API 23).
+  * new sponsors
+  * new sponsor
+  * help
+  * new sponsor
+  * new sponsor
+  * refactoring
+  * reduced gpu_mem and disabled start_x
+  * Merge pull request #27 from owendaprile/master
+  * Disable page leave warning on unexpected logout
+  * Web interface spelling fixes and improvements
+  * new sponsor
+  * Encode URL params
+  * enabled h264 for v2-hdmi-rpi4
+  * zerow default quality is 50
+  * fixed configs
+  * fix
+  * refactoring
+  * refactored streamer params, added h264 gop
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 12 Feb 2021 19:26:49 +0300
+
+kvmd (2.17) unstable; urgency=low
+
+  * Bump version: 2.16 → 2.17
+  * reset mcu hid before the loop
+  * deprecated --glitched-resolutions
+  * memory link fix
+  * queue-based vnc fb task
+  * fixed h264 accumulating
+  * refactoring
+  * new sponsor
+  * fix
+  * accumulate h264 frames
+  * new sponsor
+  * new sponsor
+  * new sponsor
+  * new sponsor
+  * new sponsors
+  * new sponsor
+  * new sponsors
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 5 Feb 2021 19:46:24 +0300
+
+kvmd (2.16) unstable; urgency=low
+
+  * Bump version: 2.15 → 2.16
+  * another rpi4 revision
+  * refactoring
+  * new sponsor
+  * api refactoring
+  * h264_bitrate streamer param
+  * v0-hdmi-zerow
+  * new sponsors
+  * many fixes for h264 chain
+  * refactoring
+  * Merge pull request #25 from owendaprile/master
+  * Fix spelling error in web interface
+  * changed h264 encoding number
+  * encodings are signed
+  * using archlinux/archlinux:base-devel
+  * reset h264 on some events
+  * new sponsor
+  * new sponsor
+  * lint fixes
+  * systemd-tmpfiles hangs
+  * vnc h264
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 28 Jan 2021 22:17:18 +0300
+
+kvmd (2.15) unstable; urgency=low
+
+  * Bump version: 2.14 → 2.15
+  * new sponsors
+  * rename
+  * refactoring
+  * sink source for vnc
+  * new sponsors
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 23 Jan 2021 08:22:31 +0300
+
+kvmd (2.14) unstable; urgency=low
+
+  * Bump version: 2.13 → 2.14
+  * v3 usb breaker
+  * added info about the new pi4 revision
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 14 Jan 2021 23:36:23 +0300
+
+kvmd (2.13) unstable; urgency=low
+
+  * Bump version: 2.12 → 2.13
+  * new sponsor
+  * fixed firmware again
+  * fixed gpio mockup
+  * new sponsors
+  * Merge pull request #23 from iyesin/exclude-venv
+  * Exclude venv from project root (venv is default suggestion from pycharm)
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 12 Jan 2021 21:46:50 +0300
+
+kvmd (2.12) unstable; urgency=low
+
+  * Bump version: 2.11 → 2.12
+  * fix
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 8 Jan 2021 21:56:55 +0300
+
+kvmd (2.11) unstable; urgency=low
+
+  * Bump version: 2.10 → 2.11
+  * Workaround for raspberrypi/firmware#1523
+  * new sponsors
+  * new sponsors
+  * update copy
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 8 Jan 2021 18:30:15 +0300
+
+kvmd (2.10) unstable; urgency=low
+
+  * Bump version: 2.9 → 2.10
+  * increasing pings limit
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 31 Dec 2020 13:35:58 +0300
+
+kvmd (2.9) unstable; urgency=low
+
+  * Bump version: 2.8 → 2.9
+  * default heartbeat = 15s
+  * new sponsors
+  * instant reset
+  * relay msd fixes
+  * new sponsors
+  * otgbind pseudo-gpio plugin
+  * await fix
+  * configurable gpio devices
+  * api refactoring
+  * new sponsors
+  * refactoring
+  * hid connection iface
+  * hid set_connected api
+  * check aum usb state
+  * refactoring
+  * new sponsor
+  * fixed pinout, refactoring
+  * refactoring
+  * new sponsors
+  * aum firmware
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 30 Dec 2020 09:36:46 +0300
+
+kvmd (2.8) unstable; urgency=low
+
+  * Bump version: 2.7 → 2.8
+  * fix
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 15 Dec 2020 13:59:55 +0300
+
+kvmd (2.7) unstable; urgency=low
+
+  * Bump version: 2.6 → 2.7
+  * temporary fix for broken rpi bootloader/firmware
+  * added v2-hdmi-rpi3 config for rpi3 model a (#20)
+  * new sponsors
+  * Support of alternative boards/SBCs (#19)
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 15 Dec 2020 13:54:34 +0300
+
+kvmd (2.6) unstable; urgency=low
+
+  * Bump version: 2.5 → 2.6
+  * new sponsor
+  * new sponsor
+  * new sponsor
+  * new sponsor
+  * new sponsor
+  * new sponsors
+  * separate state for hid offline
+  * loading led
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 11 Dec 2020 09:44:09 +0300
+
+kvmd (2.5) unstable; urgency=low
+
+  * Bump version: 2.4 → 2.5
+  * python bump
+  * serial fixes
+  * new sponsor
+  * new sponsors
+  * refactoring
+  * stop signals propagation in 3.9
+  * basic python 3.9 support
+  * new sponsor
+  * new sponsors
+  * hid outputs switch
+  * hid busy flag
+  * fixed resolution switching
+  * simplified outputs api
+  * navbar change
+  * new sponsors
+  * new sponsor
+  * new sponsor
+  * new sponsors
+  * new sponsors
+  * new sponsors
+  * refactoring
+  * new sponsor
+  * fixed KillMode for kvmd service
+  * auto-reset hid
+  * fix
+  * new sponsors
+  * refactoring
+  * Merge branch 'multihid'
+  * refactoring
+  * new sponsors
+  * refactoring
+  * refactoring
+  * new sponsors
+  * fixed mouse output choosing
+  * outputs api
+  * refactoring
+  * refactoring
+  * next
+  * refactoring
+  * multihid firmware
+  * shut up plz
+  * refactoring
+  * display endpoints state
+  * new sponsor
+  * fixed serial port disabling
+  * check usb endpoint
+  * refactoring
+  * using monotonic time
+  * hid plugins fix
+  * refactoring
+  * Merge branch 'spi'
+  * fixed xfer answer
+  * cleanup
+  * removed cshigh option
+  * software cs
+  * new sponsor
+  * disable serial port for spi
+  * refactoring
+  * another try
+  * spi firmware
+  * refactoring
+  * added kvmd to spi group
+  * refactoring
+  * kvmd spi driver
+  * renamed serial keymap codes to mcu
+  * serial phy layer
+  * splitting serial
+  * spi
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 3 Dec 2020 06:23:17 +0300
+
+kvmd (2.4) unstable; urgency=low
+
+  * Bump version: 2.3 → 2.4
+  * lint fix
+  * bt hid
+  * refactoring
+  * fixed exit pointer lock
+  * optional relative squashing
+  * refactoring
+  * fixes
+  * squash relative events
+  * delayed relative events
+  * batch relative api
+  * refactoring
+  * configurable wheel for otg
+  * Relative (#18)
+  * new sponsor
+  * new sponsors
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 11 Nov 2020 16:29:48 +0300
+
+kvmd (2.3) unstable; urgency=low
+
+  * Bump version: 2.2 → 2.3
+  * avoid dhcpcd stack trace
+  * advanced cmd options for streamer
+  * new sponsors
+  * ipmi sol
+  * new sponsors
+  * refactoring
+  * ezcoo sw41ha as gpio
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 31 Oct 2020 06:56:56 +0300
+
+kvmd (2.2) unstable; urgency=low
+
+  * Bump version: 2.1 → 2.2
+  * pikvm/pikvm#92: attempt to fix "Multiple access in eof state"
+  * fixed missing package
+  * use packages from the repo
+  * not parallel in github
+  * wider service regexp for log reader
+  * fix
+  * allow icmp
+  * dnsmasq tweaks
+  * new attempt
+  * attempt to fix github actions
+  * PR #15: https for local run
+  * typo
+  * new sponsor
+  * Merge branch 'confirm' into master
+  * otg hid: clear queue on error
+  * new sponsor
+  * new sponsor
+  * refactoring
+  * serial hid: don't sleep on exit
+  * serial hid: clear events on exceptions
+  * serial hid: perm errors is not fatal
+  * new sponsor
+  * refactoring
+  * serial hid: clear queue on error
+  * tools.clear_queue()
+  * fixed menu position
+  * new sponsor
+  * no arrows
+  * mypy again
+  * typing fixes
+  * service --run
+  * another dns fix
+  * dhcp fix
+  * kvmd-otgnet
+  * refactoring
+  * refactoring
+  * otgnet stubs
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 17 Oct 2020 20:41:48 +0300
+
+kvmd (2.1) unstable; urgency=low
+
+  * Bump version: 2.0 → 2.1
+  * vnc: qemu ext keys
+  * more correct keymap handling
+  * fixed incorrect intlbackslash in en-us and ru keymaps
+  * lint fix
+  * new sponsor
+  * dr_mode=peripheral
+  * fixed closure
+  * new sponsor
+  * more options
+  * configurable maxpower
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 8 Oct 2020 15:33:01 +0300
+
+kvmd (2.0) unstable; urgency=low
+
+  * Bump version: 1.102 → 2.0
+  * improved default override.yaml
+  * mute 400 for auth client api
+  * Fixed pikvm/pikvm#81: XK_Meta = XK_Super for VNC
+  * fixed logging
+  * adjust reopen delay
+  * processing udc state
+  * new sponsor
+  * assert
+  * refactoring
+  * lint fix
+  * using sysfs prefix
+  * handle ESHUTDOWN during hid write()
+  * Linux 5.4.69 with some fixes
+  * common env variables
+  * make run-cfg
+  * improved net validators
+  * new sponsor
+  * added tests
+  * new sponsor
+  * new sponsor
+  * new sponsor
+  * refactoring
+  * Check config toplevel
+  * improved logging
+  * renamed otg config
+  * configurable ethernet driver
+  * optional host_mac and kvm_mac
+  * ignored protected-access for _unpack()
+  * moved otg devices configs to their own section
+  * options to configure otg ethernet
+  * Merge pull request #13 from pikvm/redfish
+  * min kernel version is 5.4.65
+  * basic redfish api
+  * new sponsor
+  * Merge pull request #12 from mfunkey/master
+  * Added mapping for AltGr key
+  * renamed mass storage menu to drive
+  * new sponsor
+  * minor genmap fix
+  * fixed #10
+  * Merge pull request #10 from mfunkey/new_key
+  * proper handling of dont-hide-menu
+  * V for make release
+  * new sponsor
+  * new sponsors
+  * html regen
+  * confirmations for gpio
+  * event about looping
+  * removed unnecessary broadcasting
+  * Merge pull request #11 from arykov/master
+  * Update navbar-macro.pug
+  * new sponsors
+  * Added missing no us key
+  * Merge pull request #9 from OlegGirko/gpiod_compat
+  * Make kvmd compatible with libgpiod 1.2.
+  * pikvm/pikvm#74: Option to disable exit confirmation
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 4 Oct 2020 00:59:23 +0300
+
+kvmd (1.102) unstable; urgency=low
+
+  * Bump version: 1.101 → 1.102
+  * fixed consumer names for libgpiod
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 18 Sep 2020 01:48:33 +0300
+
+kvmd (1.101) unstable; urgency=low
+
+  * Bump version: 1.100 → 1.101
+  * option to stream forever
+  * new sponsor
+  * Merge pull request #8 from pikvm/libgpiod
+  * refactoring
+  * debounce for gpiod AioReader
+  * pikvm/pikvm#69: note about user invalidation in kvmd-htpasswd
+  * fix
+  * workaround for possible driver bug
+  * notify only on change
+  * refactoring
+  * read multiply events
+  * raspberrypi-io-access >= 0.5
+  * common gpio path variable
+  * non-cas operation
+  * removed rpi.gpio
+  * using libgpiod for the ugpio driver
+  * fixed AioPinsReader's main loop
+  * refactoring and reuse gpio pulse code
+  * pass close()
+  * using libgpiod for the gpio atx
+  * using libgpiod for the relay msd
+  * using libgpiod for the serial hid
+  * libgpiod initials
+  * deprecated old streaming hardware control
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 17 Sep 2020 14:30:48 +0300
+
+kvmd (1.100) unstable; urgency=low
+
+  * Bump version: 1.99 → 1.100
+  * pikvm/pikvm#63: added loop mode for macro
+  * new sponsor
+  * refactoring
+  * led colors
+  * changed separator
+  * real pins
+  * removed edge detection
+  * edge detection not available for pin r/w
+  * label test
+  * experimental edge mode
+  * fix
+  * nowait
+  * refactoring
+  * refactoring
+  * only available gpio modes
+  * refactoring
+  * fixes
+  * removed processing flag
+  * sync atx api
+  * prefer sync api
+  * hide device path
+  * mute
+  * gpio test configs
+  * Fixed nginx's "Could not build optimal types_hash"
+  * cleanup on driver side
+  * rename
+  * fixed web selection
+  * hid relay driver
+  * valid_ugpio_driver() fix + tests
+  * tests
+  * improved tests
+  * tests
+  * tests
+  * catch manual validation
+  * refactoring
+  * refactoring
+  * validate drivers
+  * renamed default gpio driver
+  * stronger validators
+  * fixed type of return value of check_string_in_list()
+  * more validation
+  * refactoring
+  * parallel pylint
+  * new sponsor
+  * improved ugpio scheme api
+  * fixed ipmi auth
+  * refactoring
+  * refactoring
+  * optional gpio initial
+  * minor relatime fixes
+  * fixed switch
+  * fix
+  * new sponsor
+  * ugpio plugins
+  * more logs
+  * don't report inotify mask
+  * fixed ugpio pin modes
+  * using BatchReader for ATX
+  * common background systasks
+  * gpio read is very fast
+  * minor 3.7 fixes
+  * refactoring
+  * Merge pull request #6 from OlegGirko/python-3.7
+  * Merge pull request #7 from Testato/patch-1
+  * Update main.js
+  * Update main.js
+  * Update main.js
+  * Update main.js
+  * fixed Chrome call
+  * pass gpio to prometheus metrics
+  * Change minimum supported Python version to 3.7 in setup.py file.
+  * Remove all uses of = specifier in f-strings.
+  * Remove all uses of assignment expressions.
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 11 Sep 2020 10:20:58 +0300
+
+kvmd (1.99) unstable; urgency=low
+
+  * Bump version: 1.98 → 1.99
+  * circle led
+  * gpio ui
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 3 Sep 2020 11:04:38 +0300
+
+kvmd (1.98) unstable; urgency=low
+
+  * Bump version: 1.97 → 1.98
+  * rpi1
+  * fixed valid_ugpio_view_table
+  * gpio view and refactoring
+  * no title
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 31 Aug 2020 21:06:05 +0300
+
+kvmd (1.97) unstable; urgency=low
+
+  * Bump version: 1.96 → 1.97
+  * refactoring
+  * proper set_input/set_output
+  * inverted output and initial state
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 31 Aug 2020 05:29:16 +0300
+
+kvmd (1.96) unstable; urgency=low
+
+  * Bump version: 1.95 → 1.96
+  * refactoring
+  * Merge pull request #5 from Frostman/prom
+  * Add minimal prometheus exporter support
+  * supported Authorization header
+  * refactoring
+  * refactoring
+  * rename
+  * new sponsor
+  * user gpio
+  * new sponsor
+  * rename
+  * new sponsor
+  * new sponsor
+  * new sponsor
+  * fixed unit naming
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 30 Aug 2020 23:41:06 +0300
+
+kvmd (1.95) unstable; urgency=low
+
+  * Bump version: 1.94 → 1.95
+  * fixed VNC for capture without quality control
+  * lint fix
+  * fixed login validator error message
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 22 Aug 2020 22:37:10 +0300
+
+kvmd (1.94) unstable; urgency=low
+
+  * Bump version: 1.93 → 1.94
+  * v0-hdmiusb-zerow
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 21 Aug 2020 08:07:39 +0300
+
+kvmd (1.93) unstable; urgency=low
+
+  * Bump version: 1.92 → 1.93
+  * removed loop msd
+  * Fixed pikvm/pikvm#48
+  * http hid api
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 21 Aug 2020 01:40:32 +0300
+
+kvmd (1.92) unstable; urgency=low
+
+  * Bump version: 1.91 → 1.92
+  * new sponsor
+  * Fixed pikvm/pikvm#45
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 20 Aug 2020 04:10:52 +0300
+
+kvmd (1.91) unstable; urgency=low
+
+  * Bump version: 1.90 → 1.91
+  * vnc does not support up/down mouse buttons
+  * fixed race conditions on hid events cleanup
+  * mouse buttons 4 and 5
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 19 Aug 2020 09:13:53 +0300
+
+kvmd (1.90) unstable; urgency=low
+
+  * Bump version: 1.89 → 1.90
+  * new sponsor
+  * js fix
+  * Fixed pikvm/pikvm#38: Closeable stream window
+  * new sponsor
+  * Issue pikvm#39: don't hide msd menu on connect/disconnect
+  * Fixed #4: regenerated pug, short title button
+  * Merge pull request #4 from tryallthethings/patch-1
+  * Update navbar-msd.pug
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 17 Aug 2020 04:03:04 +0300
+
+kvmd (1.89) unstable; urgency=low
+
+  * Bump version: 1.88 → 1.89
+  * new sponsor
+  * fixed mouse wheel in firefox and on mac
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 15 Aug 2020 10:48:50 +0300
+
+kvmd (1.88) unstable; urgency=low
+
+  * Bump version: 1.87 → 1.88
+  * new sponsor
+  * new sponsor
+  * new sponsor
+  * mixed mode for arduino hid
+  * new sponsor
+  * fixed copy
+  * new sponsor
+  * new sponsor
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 13 Aug 2020 09:00:22 +0300
+
+kvmd (1.87) unstable; urgency=low
+
+  * Bump version: 1.86 → 1.87
+  * changed ps/2 pins
+  * web numpad
+  * deprecated old designs
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 7 Aug 2020 22:41:17 +0300
+
+kvmd (1.86) unstable; urgency=low
+
+  * Bump version: 1.85 → 1.86
+  * lint fix
+  * refactoring
+  * new sponsors
+  * ps2
+  * ps2 keymaps
+  * new sponsor
+  * new sponsor
+  * new sponsor
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 7 Aug 2020 00:13:38 +0300
+
+kvmd (1.85) unstable; urgency=low
+
+  * Bump version: 1.84 → 1.85
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 1 Aug 2020 21:38:54 +0300
+
+kvmd (1.84) unstable; urgency=low
+
+  * Bump version: 1.83 → 1.84
+  * new kernel for rpi2 and rpi3
+  * revision-specific
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 1 Aug 2020 20:25:40 +0300
+
+kvmd (1.83) unstable; urgency=low
+
+  * Bump version: 1.82 → 1.83
+  * disabled otg tty by default
+  * partially fixed hdmiusb enumeration
+  * vnc option to disabled tls
+  * new sponsor
+  * new sponsors
+  * new sponsor
+  * new sponsor
+  * new sponsors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 31 Jul 2020 14:34:36 +0300
+
+kvmd (1.82) unstable; urgency=low
+
+  * Bump version: 1.81 → 1.82
+  * fixed PKGBUILD
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 26 Jul 2020 20:51:53 +0300
+
+kvmd (1.81) unstable; urgency=low
+
+  * Bump version: 1.80 → 1.81
+  * hdmiusb for rpi2 and rpi3
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 26 Jul 2020 20:14:23 +0300
+
+kvmd (1.80) unstable; urgency=low
+
+  * Bump version: 1.79 → 1.80
+  * fixed kernel version
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 26 Jul 2020 15:02:21 +0300
+
+kvmd (1.79) unstable; urgency=low
+
+  * Bump version: 1.78 → 1.79
+  * usb dongle support for rpi4
+  * new sponsor
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 26 Jul 2020 14:49:30 +0300
+
+kvmd (1.78) unstable; urgency=low
+
+  * Bump version: 1.77 → 1.78
+  * client port
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 23 Jul 2020 12:36:40 +0300
+
+kvmd (1.77) unstable; urgency=low
+
+  * Bump version: 1.76 → 1.77
+  * tune vnc socket
+  * fixed f-string
+  * refactoring
+  * fix
+  * new sponsor
+  * pretty firefox scrollbar
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 23 Jul 2020 10:44:52 +0300
+
+kvmd (1.76) unstable; urgency=low
+
+  * Bump version: 1.75 → 1.76
+  * lint fix
+  * arial
+  * another js hack
+  * many style improvements
+  * fix
+  * exc for unsupported streamer params
+  * drive mode radio switch
+  * refactoring
+  * fixed right menu position
+  * fix
+  * fix
+  * 5.4.51 kernel for rpi4
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 19 Jul 2020 19:41:44 +0300
+
+kvmd (1.75) unstable; urgency=low
+
+  * Bump version: 1.74 → 1.75
+  * required ustreamer >= 1.19
+  * fixed patching
+  * refactoring
+  * added power key to hids
+  * refactoring
+  * csv
+  * Makefile fix
+  * refactoring
+  * better messages style
+  * kvm pug
+  * new sponsor
+  * remove pug templates after installation
+  * pug
+  * ui for stream resolution
+  * optional quality and resolution
+  * partial fix for jumping slider
+  * notify about health
+  * refactoring
+  * fix
+  * hw tab in web ui
+  * complex info handle
+  * hw monitoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 17 Jul 2020 10:54:55 +0300
+
+kvmd (1.74) unstable; urgency=low
+
+  * Bump version: 1.73 → 1.74
+  * moving to ecc
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 8 Jul 2020 03:29:33 +0300
+
+kvmd (1.73) unstable; urgency=low
+
+  * Bump version: 1.72 → 1.73
+  * mute rfb_close_writer()
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 3 Jul 2020 22:19:34 +0300
+
+kvmd (1.72) unstable; urgency=low
+
+  * Bump version: 1.71 → 1.72
+  * hide_kvm_button
+  * minor fix for kvmd-gencert
+  * preferred tls 1.3
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 27 Jun 2020 00:42:46 +0300
+
+kvmd (1.71) unstable; urgency=low
+
+  * Bump version: 1.70 → 1.71
+  * fixed ws record
+  * fixed keymap validation
+  * user macro
+  * ipmiutil health
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 20 Jun 2020 12:06:33 +0300
+
+kvmd (1.70) unstable; urgency=low
+
+  * Bump version: 1.69 → 1.70
+  * Revert "kernel 5.4.45"
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 18 Jun 2020 14:52:57 +0300
+
+kvmd (1.69) unstable; urgency=low
+
+  * Bump version: 1.68 → 1.69
+  * kernel 5.4.45
+  * new sponsor
+  * no-stream mode for /ws
+  * refactoring
+  * refactoring
+  * Makefile help
+  * new sponsor
+  * move to 0x0, refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 18 Jun 2020 12:03:22 +0300
+
+kvmd (1.68) unstable; urgency=low
+
+  * Bump version: 1.67 → 1.68
+  * lint fix
+  * supressed snapshot spam
+  * refactoring
+  * periodic snapshots
+  * send_key_events()
+  * common component interface
+  * fix
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 8 Jun 2020 22:32:24 +0300
+
+kvmd (1.67) unstable; urgency=low
+
+  * Bump version: 1.66 → 1.67
+  * Revert "fix"
+  * fix
+  * proper logs
+  * ipmi: write client ip
+  * suppressed serial hid spam
+  * fix
+  * refactoring
+  * serial: decrease common_retries with read_retries
+  * fixed keypad dot on arduino hid
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 6 Jun 2020 02:24:35 +0300
+
+kvmd (1.66) unstable; urgency=low
+
+  * Bump version: 1.65 → 1.66
+  * numpad supported
+  * fixed rfb leds
+  * improved info handler
+  * new sponsor
+  * new sponsor
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 3 Jun 2020 02:01:56 +0300
+
+kvmd (1.65) unstable; urgency=low
+
+  * Bump version: 1.64 → 1.65
+  * thanks
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 1 Jun 2020 00:50:24 +0300
+
+kvmd (1.64) unstable; urgency=low
+
+  * Bump version: 1.63 → 1.64
+  * new snapshot api
+  * image context manager
+  * refactoring
+  * refactoring
+  * refactoring
+  * refactoring
+  * refactoring
+  * refactoring
+  * refactoring
+  * refactoring
+  * refactoring
+  * refactoring
+  * paypal
+  * refactoring
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 30 May 2020 19:51:51 +0300
+
+kvmd (1.63) unstable; urgency=low
+
+  * Bump version: 1.62 → 1.63
+  * fixed eof handling
+  * don't restart streamer with the same params
+  * fix
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 26 May 2020 22:01:40 +0300
+
+kvmd (1.62) unstable; urgency=low
+
+  * Bump version: 1.61 → 1.62
+  * An ugly workaround for "Multiple access to StreamReader in eof state, might be infinite loop"
+  * prepare to the new feature
+  * supported addupper
+  * refactoring
+  * refactoring
+  * improved some logging
+  * improved keymap parser
+  * commond kvmd ws client
+  * removed print
+  * share ClientSession via KvmdClientSession
+  * missing __init__.py
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 25 May 2020 22:58:00 +0300
+
+kvmd (1.61) unstable; urgency=low
+
+  * Bump version: 1.60 → 1.61
+  * fixed unshifted default keys
+  * major keymaps improvement
+  * additional keymapping info; refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 23 May 2020 16:02:15 +0300
+
+kvmd (1.60) unstable; urgency=low
+
+  * Bump version: 1.59 → 1.60
+  * server-side paste-as-keys
+  * lint fixes
+  * Create FUNDING.yml
+  * refactoring
+  * refactoring
+  * refactoring
+  * refactoring
+  * refactoring
+  * better error handling
+  * improved security checks
+  * vnc none auth support
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 22 May 2020 21:10:47 +0300
+
+kvmd (1.59) unstable; urgency=low
+
+  * Bump version: 1.58 → 1.59
+  * lint fix
+  * pi3-disable-bt is deprecated
+  * abort vnc connection
+  * lint fixes
+  * Create README.md
+  * workflow fix
+  * Create dockerimage.yml
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 12 May 2020 09:43:17 +0300
+
+kvmd (1.58) unstable; urgency=low
+
+  * Bump version: 1.57 → 1.58
+  * fix
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 6 May 2020 01:36:01 +0300
+
+kvmd (1.57) unstable; urgency=low
+
+  * Bump version: 1.56 → 1.57
+  * bind to 4.19.118 kernel
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 6 May 2020 01:24:46 +0300
+
+kvmd (1.56) unstable; urgency=low
+
+  * Bump version: 1.55 → 1.56
+  * fixed udev rules for unicam-image
+  * web: fixed double arrow in select
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 5 May 2020 21:17:59 +0300
+
+kvmd (1.55) unstable; urgency=low
+
+  * Bump version: 1.54 → 1.55
+  * refactoring
+  * reuseaddr
+  * fb_requested on lock
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 25 Apr 2020 15:50:02 +0300
+
+kvmd (1.54) unstable; urgency=low
+
+  * Bump version: 1.53 → 1.54
+  * vnc: anon tls encryption
+  * using ipaddress module in vlaidators
+  * improved buttons on index
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 24 Apr 2020 10:25:46 +0300
+
+kvmd (1.53) unstable; urgency=low
+
+  * Bump version: 1.52 → 1.53
+  * real ports for extras
+  * vnc manifest
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 21 Apr 2020 08:15:07 +0300
+
+kvmd (1.52) unstable; urgency=low
+
+  * Bump version: 1.51 → 1.52
+  * fixed vncpasswd permissions
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 2 Apr 2020 00:16:32 +0300
+
+kvmd (1.51) unstable; urgency=low
+
+  * Bump version: 1.50 → 1.51
+  * kvmd/auth/disabled -> kvmd/auth/enabled
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 27 Mar 2020 06:59:18 +0300
+
+kvmd (1.50) unstable; urgency=low
+
+  * Bump version: 1.49 → 1.50
+  * vncauth
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 26 Mar 2020 13:17:46 +0300
+
+kvmd (1.49) unstable; urgency=low
+
+  * Bump version: 1.48 → 1.49
+  * better exc handling
+  * report about vnc client features
+  * configurable desired_fps
+  * simplified streamer client
+  * minor vnc fixes
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 22 Mar 2020 00:13:21 +0300
+
+kvmd (1.48) unstable; urgency=low
+
+  * Bump version: 1.47 → 1.48
+  * oops
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 20 Mar 2020 03:18:31 +0300
+
+kvmd (1.47) unstable; urgency=low
+
+  * Bump version: 1.46 → 1.47
+  * vnc
+  * auth only on 200
+  * asyncio.CancelledError is a subclass of BaseException since 3.8
+  * proper usage of asyncio.wait() for first completed
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 20 Mar 2020 03:08:05 +0300
+
+kvmd (1.46) unstable; urgency=low
+
+  * Bump version: 1.45 → 1.46
+  * fixed race condition with udev and kvmd-tc358743.service
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 5 Mar 2020 06:19:19 +0300
+
+kvmd (1.45) unstable; urgency=low
+
+  * Bump version: 1.44 → 1.45
+  * receiving ustreamer signals
+  * put_nowait
+  * atomic fixes, removed tasked and muted
+  * region: notify about enter/exit, unregion on exception
+  * changed region methods to async
+  * no pid limits
+  * no more busyloops in stub plugins
+  * no busyloop in otg msd
+  * removed busyloop from stream controller
+  * moved AioExclusiveRegion to aiotools
+  * removed __poll_dead_sockets()
+  * refactoring; reduce cpu consumption in streamer controller
+  * hid leds
+  * PROJECT_LIBDEPS_DIR
+  * supported menu and numlock keys
+  * css
+  * find first unused loop device
+  * otg keyboard leds
+  * /hid/state -> /hid
+  * fixed double get_state() in serial hid
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 4 Mar 2020 04:30:31 +0300
+
+kvmd (1.44) unstable; urgency=low
+
+  * Bump version: 1.43 → 1.44
+  * fixed hid ensuring
+  * lint fix
+  * comments
+  * logitech keyboard descriptor
+  * fix
+  * pam auth module
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 11 Feb 2020 23:21:54 +0300
+
+kvmd (1.43) unstable; urgency=low
+
+  * Bump version: 1.42 → 1.43
+  * fixed POST of /hid/reset
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 27 Dec 2019 04:30:57 +0300
+
+kvmd (1.42) unstable; urgency=low
+
+  * Bump version: 1.41 → 1.42
+  * udev fixes for v0 and v1 on rpi3
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 21 Dec 2019 19:05:18 +0300
+
+kvmd (1.41) unstable; urgency=low
+
+  * Bump version: 1.40 → 1.41
+  * option to disable auth
+  * refactoring
+  * refactoring
+  * lint fix
+  * ws api refactoring
+  * very common exceptions
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 12 Dec 2019 05:29:29 +0300
+
+kvmd (1.40) unstable; urgency=low
+
+  * Bump version: 1.39 → 1.40
+  * wol ui
+  * common feature-disabled class
+  * wake-on-lan back
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 30 Nov 2019 18:48:00 +0300
+
+kvmd (1.39) unstable; urgency=low
+
+  * Bump version: 1.38 → 1.39
+  * don't invert atx leds by default
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 23 Nov 2019 01:37:05 +0300
+
+kvmd (1.38) unstable; urgency=low
+
+  * Bump version: 1.37 → 1.38
+  * fixed exception on msd uploading abort
+  * separator in msd images list
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 18 Nov 2019 21:27:36 +0300
+
+kvmd (1.37) unstable; urgency=low
+
+  * Bump version: 1.36 → 1.37
+  * lint fix
+  * python == 3.8
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 15 Nov 2019 00:03:29 +0300
+
+kvmd (1.36) unstable; urgency=low
+
+  * Bump version: 1.35 → 1.36
+  * fixed zerow package
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 10 Nov 2019 17:35:33 +0300
+
+kvmd (1.35) unstable; urgency=low
+
+  * Bump version: 1.34 → 1.35
+  * configs packages for zerow
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 10 Nov 2019 06:16:13 +0300
+
+kvmd (1.34) unstable; urgency=low
+
+  * Bump version: 1.33 → 1.34
+  * style fix
+  * moved images info to comment elements
+  * minor images list fixes
+  * fixed select overflow
+  * lock image selector on change
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 10 Nov 2019 06:13:30 +0300
+
+kvmd (1.33) unstable; urgency=low
+
+  * Bump version: 1.32 → 1.33
+  * default test platform = v2-hdmi-rpi4
+  * Merge branch 'zerow'
+  * otg msd ui
+  * fixed css selectors
+  * zerow configs
+  * otg msd: notify about free space while uploading
+  * renamed css
+  * renamed leds
+  * refactoring
+  * refactoring
+  * ui: partial multi msd support
+  * v2 testing
+  * otg msd and big refactoring
+  * strict permissions
+  * split nginx.conf
+  * func renamed
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 10 Nov 2019 01:10:08 +0300
+
+kvmd (1.32) unstable; urgency=low
+
+  * Bump version: 1.31 → 1.32
+  * /var/lib/kvmd/msd on ro partition
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 24 Oct 2019 03:48:43 +0300
+
+kvmd (1.31) unstable; urgency=low
+
+  * Bump version: 1.30 → 1.31
+  * improved validation
+  * refactoring
+  * changed some defaults
+  * strict file validation
+  * allow kvmd to edit msd params
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 24 Oct 2019 03:09:44 +0300
+
+kvmd (1.30) unstable; urgency=low
+
+  * Bump version: 1.29 → 1.30
+  * fucking systemd
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 23 Oct 2019 01:07:04 +0300
+
+kvmd (1.29) unstable; urgency=low
+
+  * Bump version: 1.28 → 1.29
+  * improved otg msd
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 21 Oct 2019 04:53:22 +0300
+
+kvmd (1.28) unstable; urgency=low
+
+  * Bump version: 1.27 → 1.28
+  * removed tc358743-dkms from deps
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 19 Oct 2019 20:07:28 +0300
+
+kvmd (1.27) unstable; urgency=low
+
+  * Bump version: 1.26 → 1.27
+  * fixed flake8 quotes linter
+  * otg msd helpers
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 19 Oct 2019 19:41:58 +0300
+
+kvmd (1.26) unstable; urgency=low
+
+  * Bump version: 1.25 → 1.26
+  * ignore new arch packages
+  * no external flash for v2
+  * kvmd-gencert --do-the-thing
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 17 Oct 2019 02:56:12 +0300
+
+kvmd (1.25) unstable; urgency=low
+
+  * Bump version: 1.24 → 1.25
+  * fixed perms
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 15 Oct 2019 20:19:04 +0300
+
+kvmd (1.24) unstable; urgency=low
+
+  * Bump version: 1.23 → 1.24
+  * using install
+  * python-3.7
+  * msd: allow any printable characters in image name
+  * some validation
+  * added test case
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 15 Oct 2019 19:41:44 +0300
+
+kvmd (1.23) unstable; urgency=low
+
+  * Bump version: 1.22 → 1.23
+  * pylint is broken again
+  * use process_name_prefix to kill ustreamer
+  * set --process-name-prefix
+  * minor fix for backup
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 12 Oct 2019 00:01:36 +0300
+
+kvmd (1.22) unstable; urgency=low
+
+  * Bump version: 1.21 → 1.22
+  * don't use symlinks. fucking pacman
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 11 Oct 2019 22:30:58 +0300
+
+kvmd (1.21) unstable; urgency=low
+
+  * Bump version: 1.20 → 1.21
+  * backup configs
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 11 Oct 2019 20:50:29 +0300
+
+kvmd (1.20) unstable; urgency=low
+
+  * Bump version: 1.19 → 1.20
+  * enabled atx on v2-hdmi
+  * min ustreamer == 1.8
+  * added secret for http auth
+  * fix
+  * fixed resolution in v0-vga
+  * ustreamer: using --exit-on-parent-death
+  * cleanup: refactoring, using psutil
+  * options overwrites override
+  * testenv: using override instead complete config
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 11 Oct 2019 19:49:00 +0300
+
+kvmd (1.19) unstable; urgency=low
+
+  * Bump version: 1.18 → 1.19
+  * cdrom flag; written fix
+  * fixed missing deps
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 5 Oct 2019 15:22:58 +0300
+
+kvmd (1.18) unstable; urgency=low
+
+  * Bump version: 1.17 → 1.18
+  * arduino hid: fixed mouse movement on windows
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 5 Oct 2019 02:42:49 +0300
+
+kvmd (1.17) unstable; urgency=low
+
+  * Bump version: 1.16 → 1.17
+  * updated hid-project library
+  * refactoring
+  * simplified serial hid
+  * refactoring
+  * refactoring
+  * changed processes names
+  * kvmd-otg-msd: more flags
+  * horizontal scrolling for otg
+  * TimeoutStopSec
+  * refactoring
+  * log otg actions
+  * changed otg gadget name to kvmd
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 3 Oct 2019 02:04:27 +0300
+
+kvmd (1.16) unstable; urgency=low
+
+  * Bump version: 1.15 → 1.16
+  * v2-hdmi: mouse
+  * hdmi: decreased stream restart
+  * added middle button
+  * serial hid: added middle button
+  * error -> debug
+  * otg mouse
+  * minor otg hid fixes
+  * added otg msd stub
+  * separate keyboard and mouse statuses
+  * web: fixed mouse
+  * hid fixes
+  * fixed keyboard otg device path
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 30 Sep 2019 08:06:28 +0300
+
+kvmd (1.15) unstable; urgency=low
+
+  * Bump version: 1.14 → 1.15
+  * fixed yaml indent
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 28 Sep 2019 06:59:09 +0300
+
+kvmd (1.14) unstable; urgency=low
+
+  * Bump version: 1.13 → 1.14
+  * fixed config name
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 28 Sep 2019 06:46:40 +0300
+
+kvmd (1.13) unstable; urgency=low
+
+  * Bump version: 1.12 → 1.13
+  * fixed platform packages
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 28 Sep 2019 06:03:51 +0300
+
+kvmd (1.12) unstable; urgency=low
+
+  * Bump version: 1.11 → 1.12
+  * mypy fix
+  * v2 configs
+  * otg keyboard hid
+  * otg keymap
+  * test fix
+  * refactoring
+  * refactoring
+  * mouse wheel from -127 to +127
+  * otg: fixed keyboard report_length
+  * extended msd api for future otg
+  * otg: init_delay
+  * refactoring
+  * refactoring
+  * otg service and helper
+  * preparing to otg
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 28 Sep 2019 05:46:22 +0300
+
+kvmd (1.11) unstable; urgency=low
+
+  * Bump version: 1.10 → 1.11
+  * tc358743-dkms >= 0.3
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 20 Sep 2019 17:46:44 +0300
+
+kvmd (1.10) unstable; urgency=low
+
+  * Bump version: 1.9 → 1.10
+  * refactoring
+  * fixed PKGBUILD
+  * install hid sources
+  * show last frame as blank
+  * refactoring
+  * ustreamer min version == 1.5
+  * fixed config loading
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 20 Sep 2019 01:45:51 +0300
+
+kvmd (1.9) unstable; urgency=low
+
+  * Bump version: 1.8 → 1.9
+  * crutch for plugins configuring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 14 Sep 2019 06:08:03 +0300
+
+kvmd (1.8) unstable; urgency=low
+
+  * Bump version: 1.7 → 1.8
+  * fixed missing msd package
+  * logging fix
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 14 Sep 2019 05:27:29 +0300
+
+kvmd (1.7) unstable; urgency=low
+
+  * Bump version: 1.6 → 1.7
+  * fixed cleanup message for plugins
+  * ustreamer min version is 1.4
+  * separate region exceptions
+  * removed plugins
+  * msd plugins
+  * atx plugin
+  * changed config hierarchy
+  * plugin hid
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 12 Sep 2019 03:15:28 +0300
+
+kvmd (1.6) unstable; urgency=low
+
+  * Bump version: 1.5 → 1.6
+  * ustreamer 1.3
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 10 Sep 2019 22:38:58 +0300
+
+kvmd (1.5) unstable; urgency=low
+
+  * Bump version: 1.4 → 1.5
+  * changed upstream url
+  * don't use packer-kit
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 1 Sep 2019 22:54:28 +0300
+
+kvmd (1.4) unstable; urgency=low
+
+  * Bump version: 1.3 → 1.4
+  * pkgbuild: fixed platform deps
+  * gitignored hid/.pio/
+  * Makefile: using optbool
+  * added ustreamer to deps
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 5 Aug 2019 00:17:29 +0300
+
+kvmd (1.3) unstable; urgency=low
+
+  * Bump version: 1.2 → 1.3
+  * systemd -> services
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 20 Jul 2019 05:54:09 +0300
+
+kvmd (1.2) unstable; urgency=low
+
+  * Bump version: 1.1 → 1.2
+  * using sysusers.d
+  * use strict
+  * fixed double js import
+  * web limit mouse position
+  * USTREAMER_MIN_VERSION
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 19 Jul 2019 04:10:57 +0300
+
+kvmd (1.1) unstable; urgency=low
+
+  * Bump version: 1.0 → 1.1
+  * config: set hdmi fps params
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 14 Jul 2019 05:13:49 +0300
+
+kvmd (1.0) unstable; urgency=low
+
+  * Bump version: 0.183 → 1.0
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 13 Jul 2019 07:16:03 +0300
+
+kvmd (0.183) unstable; urgency=low
+
+  * Bump version: 0.182 → 0.183
+  * using js modules
+  * new ustreamer and fps max
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 13 Jul 2019 06:39:29 +0300
+
+kvmd (0.182) unstable; urgency=low
+
+  * Bump version: 0.181 → 0.182
+  * refactoring
+  * f-strings
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 1 Jul 2019 02:49:39 +0300
+
+kvmd (0.181) unstable; urgency=low
+
+  * Bump version: 0.180 → 0.181
+  * override
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 26 Jun 2019 21:32:33 +0300
+
+kvmd (0.180) unstable; urgency=low
+
+  * Bump version: 0.179 → 0.180
+  * /log handle raises an error if journald is not available
+  * cleanup: process exceptions and disabled modules
+  * many fixes with asyncio
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 24 Jun 2019 23:33:57 +0300
+
+kvmd (0.179) unstable; urgency=low
+
+  * Bump version: 0.178 → 0.179
+  * Using BLKGETSIZE * BLKSSZGET instead of BLKGETSIZE64
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 12 Jun 2019 08:29:10 +0300
+
+kvmd (0.178) unstable; urgency=low
+
+  * Bump version: 0.177 → 0.178
+  * removed pyudev
+  * pylint fix
+  * refactoring
+  * msd: fixed notifications
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 12 Jun 2019 07:56:12 +0300
+
+kvmd (0.177) unstable; urgency=low
+
+  * Bump version: 0.176 → 0.177
+  * msd: web states fix
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 11 Jun 2019 04:22:44 +0300
+
+kvmd (0.176) unstable; urgency=low
+
+  * Bump version: 0.175 → 0.176
+  * separate busy and uploading flag
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 11 Jun 2019 03:38:20 +0300
+
+kvmd (0.175) unstable; urgency=low
+
+  * Bump version: 0.174 → 0.175
+  * refactoring
+  * send only changed states
+  * fixed CancelledError on killing server
+  * process CancelledError
+  * improved msd state machine
+  * fixed logging depth
+  * increased web timeout
+  * refactoring
+  * wait short tasks
+  * better atomic ops
+  * refactoring
+  * atomic server requests
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 8 Jun 2019 06:46:30 +0300
+
+kvmd (0.174) unstable; urgency=low
+
+  * Bump version: 0.173 → 0.174
+  * minor msd fixes for slow devices
+  * fixed dataclass asdict
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 3 Jun 2019 00:43:04 +0300
+
+kvmd (0.173) unstable; urgency=low
+
+  * Bump version: 0.172 → 0.173
+  * using dataclasses instead of typed namedtuple
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 2 Jun 2019 21:07:37 +0300
+
+kvmd (0.172) unstable; urgency=low
+
+  * Bump version: 0.171 → 0.172
+  * v0 configs
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 21 May 2019 04:39:23 +0300
+
+kvmd (0.171) unstable; urgency=low
+
+  * Bump version: 0.170 → 0.171
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 14 May 2019 15:05:39 +0300
+
+kvmd (0.170) unstable; urgency=low
+
+  * Bump version: 0.169 → 0.170
+  * handle disabled services
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 11 May 2019 21:37:51 +0300
+
+kvmd (0.169) unstable; urgency=low
+
+  * Bump version: 0.168 → 0.169
+  * hide disabled services
+  * info: report dbus errors
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 10 May 2019 20:42:37 +0300
+
+kvmd (0.168) unstable; urgency=low
+
+  * Bump version: 0.167 → 0.168
+  * refactoring
+  * fixed /etc/kvmd/*passwd perms
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 10 May 2019 15:27:10 +0300
+
+kvmd (0.167) unstable; urgency=low
+
+  * Bump version: 0.166 → 0.167
+  * fixed missing dir
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 10 May 2019 14:44:19 +0300
+
+kvmd (0.166) unstable; urgency=low
+
+  * Bump version: 0.165 → 0.166
+  * improved users/groups
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 10 May 2019 14:36:56 +0300
+
+kvmd (0.165) unstable; urgency=low
+
+  * Bump version: 0.164 → 0.165
+  * using unix sockets
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 9 May 2019 20:53:00 +0300
+
+kvmd (0.164) unstable; urgency=low
+
+  * Bump version: 0.163 → 0.164
+  * tests reorganized
+  * htpasswd: correct exceptions handling
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 4 May 2019 09:48:00 +0300
+
+kvmd (0.163) unstable; urgency=low
+
+  * Bump version: 0.162 → 0.163
+  * better windows management
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 4 May 2019 00:28:37 +0300
+
+kvmd (0.162) unstable; urgency=low
+
+  * Bump version: 0.161 → 0.162
+  * better setup.py
+  * test environment for ipmi
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 1 May 2019 10:25:57 +0300
+
+kvmd (0.161) unstable; urgency=low
+
+  * Bump version: 0.160 → 0.161
+  * extras data for ipmi
+  * soft of by default
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 30 Apr 2019 01:54:37 +0300
+
+kvmd (0.160) unstable; urgency=low
+
+  * Bump version: 0.159 → 0.160
+  * fixed template
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 28 Apr 2019 22:57:32 +0300
+
+kvmd (0.159) unstable; urgency=low
+
+  * Bump version: 0.158 → 0.159
+  * fast entrypoints
+  * load only required plugins
+  * CAP_NET_BIND_SERVICE for kvmd-ipmi.service
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 28 Apr 2019 22:06:18 +0300
+
+kvmd (0.158) unstable; urgency=low
+
+  * Bump version: 0.157 → 0.158
+  * fixed build
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 28 Apr 2019 09:23:53 +0300
+
+kvmd (0.157) unstable; urgency=low
+
+  * Bump version: 0.156 → 0.157
+  * ipmi bmc proxy
+  * highlevel atx api
+  * fixed comment
+  * single-shot auth using headers
+  * apps: init only required sections
+  * url refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 28 Apr 2019 08:42:26 +0300
+
+kvmd (0.156) unstable; urgency=low
+
+  * Bump version: 0.155 → 0.156
+  * refactoring
+  * ipad mouse buttons, keyboard refactoring
+  * hid-project==2.6.0
+  * hid: prod and test envs
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 25 Apr 2019 04:15:59 +0300
+
+kvmd (0.155) unstable; urgency=low
+
+  * Bump version: 0.154 → 0.155
+  * reset* confirmation
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 22 Apr 2019 21:23:23 +0300
+
+kvmd (0.154) unstable; urgency=low
+
+  * Bump version: 0.153 → 0.154
+  * post_upgrade()
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 20 Apr 2019 07:33:10 +0300
+
+kvmd (0.153) unstable; urgency=low
+
+  * Bump version: 0.152 → 0.153
+  * supported not inverted leds
+  * fixed make run
+  * refactoring
+  * test for auth manager
+  * moved tests to testenv
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 16 Apr 2019 01:19:19 +0300
+
+kvmd (0.152) unstable; urgency=low
+
+  * Bump version: 0.151 → 0.152
+  * build fixes
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 13 Apr 2019 22:06:57 +0300
+
+kvmd (0.151) unstable; urgency=low
+
+  * Bump version: 0.150 → 0.151
+  * updated docker image
+  * refactoring
+  * better gpio tests
+  * yamlconf: fixed multiline default vales dump
+  * test corner cases for app htpasswd
+  * nocovers
+  * better auth testing
+  * better auth tests, refactoring
+  * some nocovers
+  * omit __main__.py for coverage
+  * prevent ctrl+w kvm session
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 13 Apr 2019 07:57:32 +0300
+
+kvmd (0.150) unstable; urgency=low
+
+  * Bump version: 0.149 → 0.150
+  * fixed make-clean
+  * updated classifiers
+  * validators fs -> os
+  * moar validators
+  * fixed project url
+  * makefile fix
+  * paranoid access for some reasons
+  * fixed test_app_cleanup
+  * better makefile
+  * global event loop
+  * auth plugins
+  * streamer: send user-agent
+  * refactoring
+  * refactoring
+  * refactoring
+  * basic -> htpasswd
+  * refactoring
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 10 Apr 2019 23:11:08 +0300
+
+kvmd (0.149) unstable; urgency=low
+
+  * Bump version: 0.148 → 0.149
+  * refactoring
+  * hid: better error handling
+  * refactoring
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 7 Apr 2019 09:26:11 +0300
+
+kvmd (0.148) unstable; urgency=low
+
+  * Bump version: 0.147 → 0.148
+  * parallel tox
+  * refactoring
+  * testing htpasswd
+  * better cleanup testing, remove all unix sockets
+  * validators, tests
+  * modular auth
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 7 Apr 2019 00:20:24 +0300
+
+kvmd (0.147) unstable; urgency=low
+
+  * Bump version: 0.146 → 0.147
+  * udev fix for new kernel
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 28 Mar 2019 05:40:20 +0300
+
+kvmd (0.146) unstable; urgency=low
+
+  * Bump version: 0.145 → 0.146
+  * api refactoring
+  * actualized dockerfile
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 28 Mar 2019 02:32:00 +0300
+
+kvmd (0.145) unstable; urgency=low
+
+  * Bump version: 0.144 → 0.145
+  * fixed copyright
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 22 Mar 2019 06:04:01 +0300
+
+kvmd (0.144) unstable; urgency=low
+
+  * Bump version: 0.143 → 0.144
+  * optional msd and atx
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 18 Mar 2019 03:33:55 +0300
+
+kvmd (0.143) unstable; urgency=low
+
+  * Bump version: 0.142 → 0.143
+  * renamed option --persistent in ustreamer
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 16 Mar 2019 01:45:21 +0300
+
+kvmd (0.142) unstable; urgency=low
+
+  * Bump version: 0.141 → 0.142
+  * fix for new ustreamer
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 3 Mar 2019 12:42:04 +0300
+
+kvmd (0.141) unstable; urgency=low
+
+  * Bump version: 0.140 → 0.141
+  * fixed cleanup pinout
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 20 Feb 2019 05:40:58 +0300
+
+kvmd (0.140) unstable; urgency=low
+
+  * Bump version: 0.139 → 0.140
+  * license
+  * auth.yaml copy
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 19 Feb 2019 04:45:27 +0300
+
+kvmd (0.139) unstable; urgency=low
+
+  * Bump version: 0.138 → 0.139
+  * license
+  * auth.yaml
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 18 Feb 2019 07:15:28 +0300
+
+kvmd (0.138) unstable; urgency=low
+
+  * Bump version: 0.137 → 0.138
+  * fixed -subj in kvmd-gencert
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 18 Feb 2019 00:58:38 +0300
+
+kvmd (0.137) unstable; urgency=low
+
+  * Bump version: 0.136 → 0.137
+  * groups management
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 18 Feb 2019 00:17:44 +0300
+
+kvmd (0.136) unstable; urgency=low
+
+  * Bump version: 0.135 → 0.136
+  * removed .SRCINFO
+  * kvmd-gencert
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 17 Feb 2019 09:46:10 +0300
+
+kvmd (0.135) unstable; urgency=low
+
+  * Bump version: 0.134 → 0.135
+  * fixed platform configs path
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 17 Feb 2019 08:38:35 +0300
+
+kvmd (0.134) unstable; urgency=low
+
+  * Bump version: 0.133 → 0.134
+  * fixed platform package eval
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 17 Feb 2019 08:23:24 +0300
+
+kvmd (0.133) unstable; urgency=low
+
+  * Bump version: 0.132 → 0.133
+  * packer hack
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 17 Feb 2019 07:34:11 +0300
+
+kvmd (0.132) unstable; urgency=low
+
+  * Bump version: 0.131 → 0.132
+  * Update to 0.131-1
+  * fixed platform pkgs
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 17 Feb 2019 06:24:48 +0300
+
+kvmd (0.131) unstable; urgency=low
+
+  * Bump version: 0.130 → 0.131
+  * optdepends
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 17 Feb 2019 06:09:32 +0300
+
+kvmd (0.130) unstable; urgency=low
+
+  * Bump version: 0.129 → 0.130
+  * package fixes
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 17 Feb 2019 05:38:42 +0300
+
+kvmd (0.129) unstable; urgency=low
+
+  * Bump version: 0.128 → 0.129
+  * platform packages
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 17 Feb 2019 04:23:02 +0300
+
+kvmd (0.128) unstable; urgency=low
+
+  * Bump version: 0.127 → 0.128
+  * refactoring
+  * os configs
+  * big config refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 16 Feb 2019 21:17:27 +0300
+
+kvmd (0.127) unstable; urgency=low
+
+  * Bump version: 0.126 → 0.127
+  * improved genmap/keymap
+  * improved testenv
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 11 Feb 2019 02:04:03 +0300
+
+kvmd (0.126) unstable; urgency=low
+
+  * Bump version: 0.125 → 0.126
+  * htpasswd: create tmp file before password asking
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 10 Feb 2019 04:55:47 +0300
+
+kvmd (0.125) unstable; urgency=low
+
+  * Bump version: 0.124 → 0.125
+  * added some help
+  * htpasswd: change tmp permissions
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 10 Feb 2019 04:15:57 +0300
+
+kvmd (0.124) unstable; urgency=low
+
+  * Bump version: 0.123 → 0.124
+  * moved application.py content to apps/__init__.py
+  * kvmd-htpasswd
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 10 Feb 2019 02:52:09 +0300
+
+kvmd (0.123) unstable; urgency=low
+
+  * Bump version: 0.122 → 0.123
+  * fixed yamlconf dump for dicts
+  * fixed msd cleanup
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 9 Feb 2019 09:02:27 +0300
+
+kvmd (0.122) unstable; urgency=low
+
+  * Bump version: 0.121 → 0.122
+  * powerful configuration management
+  * fixed cleanup config
+  * hid: led-yellow preferred
+  * minor config fix
+  * web: fixed update leds on hid events
+  * hid: fixed command processing
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 8 Feb 2019 06:58:33 +0300
+
+kvmd (0.121) unstable; urgency=low
+
+  * Bump version: 0.120 → 0.121
+  * default values for some options
+  * new hid protocol with crc
+  * lint fix
+  * lint fixes
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 7 Feb 2019 06:13:07 +0300
+
+kvmd (0.120) unstable; urgency=low
+
+  * Bump version: 0.119 → 0.120
+  * /dev/kvmd-hid
+  * fixed browser detection
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 24 Dec 2018 02:19:31 +0300
+
+kvmd (0.119) unstable; urgency=low
+
+  * Bump version: 0.118 → 0.119
+  * removed kvm from extras
+  * adblock warning on login
+  * better button style
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 19 Dec 2018 04:34:08 +0300
+
+kvmd (0.118) unstable; urgency=low
+
+  * Bump version: 0.117 → 0.118
+  * click() instead __login()
+  * fixed cache-control
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 18 Dec 2018 04:33:53 +0300
+
+kvmd (0.117) unstable; urgency=low
+
+  * Bump version: 0.116 → 0.117
+  * loc-nocache
+  * removed wscli
+  * user login in access log
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 18 Dec 2018 03:23:45 +0300
+
+kvmd (0.116) unstable; urgency=low
+
+  * Bump version: 0.115 → 0.116
+  * using wm.switchDisabled()
+  * syntax fix
+  * process 401 and 403
+  * ignore streamer connection errors
+  * fixed login error on empty username
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 16 Dec 2018 22:57:11 +0300
+
+kvmd (0.115) unstable; urgency=low
+
+  * Bump version: 0.114 → 0.115
+  * logout
+  * better access log
+  * fixed cleanup for non-unixsocket configs
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 16 Dec 2018 04:13:53 +0300
+
+kvmd (0.114) unstable; urgency=low
+
+  * Bump version: 0.113 → 0.114
+  * fixed stream-mouse-buttons
+  * don't install systemd services to configs.default
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 15 Dec 2018 19:33:23 +0300
+
+kvmd (0.113) unstable; urgency=low
+
+  * Bump version: 0.112 → 0.113
+  * fixed configs.default files permissions
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 15 Dec 2018 17:31:10 +0300
+
+kvmd (0.112) unstable; urgency=low
+
+  * Bump version: 0.111 → 0.112
+  * modular nginx configuration
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 15 Dec 2018 17:01:54 +0300
+
+kvmd (0.111) unstable; urgency=low
+
+  * Bump version: 0.110 → 0.111
+  * own auth
+  * added robots.txt
+  * refactoring
+  * fixed kvmd host in dev config
+  * lint fix
+  * cleanup
+  * kvmd-streamer -> kvmd-video
+  * kvmd: supported unix sockets
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 15 Dec 2018 04:30:16 +0300
+
+kvmd (0.110) unstable; urgency=low
+
+  * Bump version: 0.109 → 0.110
+  * kvmd: supported unix sockets for ustreamer
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 6 Dec 2018 22:21:52 +0300
+
+kvmd (0.109) unstable; urgency=low
+
+  * Bump version: 0.108 → 0.109
+  * web: process default states
+  * refactoring
+  * loading message
+  * fixed slider for firefox
+  * fixed link to root
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 4 Dec 2018 20:47:25 +0300
+
+kvmd (0.108) unstable; urgency=low
+
+  * Bump version: 0.107 → 0.108
+  * prevent focus flickering
+  * ui -> wm
+  * focus-based window manager
+  * refactoring
+  * log before operations
+  * non-blocking click handle
+  * refactoring
+  * blur logic
+  * web: fixed focus after modal window
+  * refactoring
+  * better windows management
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 2 Dec 2018 01:15:28 +0300
+
+kvmd (0.107) unstable; urgency=low
+
+  * Bump version: 0.106 → 0.107
+  * Added v4l-utils to deps
+  * index: fixed quotes
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 24 Nov 2018 21:56:15 +0300
+
+kvmd (0.106) unstable; urgency=low
+
+  * Bump version: 0.105 → 0.106
+  * fixed html titles
+  * kvm: link to index
+  * nginx: disabled abs redirect
+  * removed loadInitialState()
+  * using div.code instead of custom textarea
+  * css refactoring
+  * index
+  * design fix, refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 24 Nov 2018 08:02:48 +0300
+
+kvmd (0.105) unstable; urgency=low
+
+  * Bump version: 0.104 → 0.105
+  * refactoring
+  * design fix
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 21 Nov 2018 07:57:36 +0300
+
+kvmd (0.104) unstable; urgency=low
+
+  * Bump version: 0.103 → 0.104
+  * fixed manifest.yaml path
+  * removed requirements.txt and MANIFEST.in
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 18 Nov 2018 09:38:55 +0300
+
+kvmd (0.103) unstable; urgency=low
+
+  * Bump version: 0.102 → 0.103
+  * fixed missing dep
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 18 Nov 2018 08:39:10 +0300
+
+kvmd (0.102) unstable; urgency=low
+
+  * Bump version: 0.101 → 0.102
+  * path fix
+  * removed .gitignore
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 18 Nov 2018 08:34:54 +0300
+
+kvmd (0.101) unstable; urgency=low
+
+  * Bump version: 0.100 → 0.101
+  * refactoring
+  * refactoring
+  * moved lua crutch to kvmd
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 18 Nov 2018 08:24:23 +0300
+
+kvmd (0.100) unstable; urgency=low
+
+  * Bump version: 0.99 → 0.100
+  * new manifest.json
+  * refactoring
+  * removed sha-bang from wscli
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 18 Nov 2018 02:33:08 +0300
+
+kvmd (0.99) unstable; urgency=low
+
+  * Bump version: 0.98 → 0.99
+  * automatic choosing journald services
+  * metadata in web
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 17 Nov 2018 11:25:48 +0300
+
+kvmd (0.98) unstable; urgency=low
+
+  * Bump version: 0.97 → 0.98
+  * refactoring
+  * moved tox to testenv
+  * meta, refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 16 Nov 2018 09:49:36 +0300
+
+kvmd (0.97) unstable; urgency=low
+
+  * Bump version: 0.96 → 0.97
+  * unprivileged kvmd daemon
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 16 Nov 2018 01:16:59 +0300
+
+kvmd (0.96) unstable; urgency=low
+
+  * Bump version: 0.95 → 0.96
+  * fixed broken "open log"
+  * common logging.yaml
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 15 Nov 2018 01:02:07 +0300
+
+kvmd (0.95) unstable; urgency=low
+
+  * Bump version: 0.94 → 0.95
+  * fixed index.html
+  * reconnect to stream if client_id is rotten
+  * big rewrite of extensions
+  * refactoring
+  * pre
+  * refactoring
+  * favicon
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 14 Nov 2018 08:24:13 +0300
+
+kvmd (0.94) unstable; urgency=low
+
+  * Bump version: 0.93 → 0.94
+  * .yaml again
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 13 Nov 2018 06:53:18 +0300
+
+kvmd (0.93) unstable; urgency=low
+
+  * Bump version: 0.92 → 0.93
+  * new ustreamer
+  * v1-hdmi: quality=80
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 12 Nov 2018 11:47:36 +0300
+
+kvmd (0.92) unstable; urgency=low
+
+  * Bump version: 0.91 → 0.92
+  * --encoder-omx-use-ijg for v1-hdmi
+  * min quality = 5
+  * refactoring
+  * fixed about colspan
+  * fixed missing ext.d
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 12 Nov 2018 11:00:53 +0300
+
+kvmd (0.91) unstable; urgency=low
+
+  * Bump version: 0.90 → 0.91
+  * nginx: error_log stderr
+  * /extensions using lua
+  * better about
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 12 Nov 2018 04:06:12 +0300
+
+kvmd (0.90) unstable; urgency=low
+
+  * Bump version: 0.89 → 0.90
+  * better logging
+  * improved nginx locations
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 10 Nov 2018 08:35:16 +0300
+
+kvmd (0.89) unstable; urgency=low
+
+  * Bump version: 0.88 → 0.89
+  * fixed unclickable links
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 9 Nov 2018 22:43:05 +0300
+
+kvmd (0.88) unstable; urgency=low
+
+  * Bump version: 0.87 → 0.88
+  * streamer state over websocket
+  * new ustreamer
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 9 Nov 2018 01:25:27 +0300
+
+kvmd (0.87) unstable; urgency=low
+
+  * Bump version: 0.86 → 0.87
+  * enabled tox on make release
+  * lint fix
+  * streamer /ping -> /state
+  * using key cookie to determine client_id
+  * make run-no-cache
+  * dirty fix for fps
+  * better sliders
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 7 Nov 2018 06:27:58 +0300
+
+kvmd (0.86) unstable; urgency=low
+
+  * Bump version: 0.85 → 0.86
+  * omx workers == 3
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 5 Nov 2018 10:15:36 +0300
+
+kvmd (0.85) unstable; urgency=low
+
+  * Bump version: 0.84 → 0.85
+  * js logs refactoring
+  * set yaml filetype
+  * soft fps limit
+  * uStreamer fix for WebKit
+  * fixed mouse led on ios
+  * fixed log button in ios
+  * workaround for chrome bug #527446
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 5 Nov 2018 06:21:01 +0300
+
+kvmd (0.84) unstable; urgency=low
+
+  * Bump version: 0.83 → 0.84
+  * configs moving
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 31 Oct 2018 11:00:36 +0300
+
+kvmd (0.83) unstable; urgency=low
+
+  * Bump version: 0.82 → 0.83
+  * nginx hooks for future extensions
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 31 Oct 2018 02:14:06 +0300
+
+kvmd (0.82) unstable; urgency=low
+
+  * Bump version: 0.81 → 0.82
+  * --device-persistent for v1-hdmi
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 28 Oct 2018 14:04:41 +0300
+
+kvmd (0.81) unstable; urgency=low
+
+  * Bump version: 0.80 → 0.81
+  * temporary commented "make tox" for "make release"
+  * using 127.0.0.1 instead of localhost
+  * log interface
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 28 Oct 2018 07:12:13 +0300
+
+kvmd (0.80) unstable; urgency=low
+
+  * Bump version: 0.79 → 0.80
+  * fixed pinout
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 19 Oct 2018 19:24:54 +0300
+
+kvmd (0.79) unstable; urgency=low
+
+  * Bump version: 0.78 → 0.79
+  * show streamer version
+  * refactoring
+  * minor ui improvements
+  * ios safari does not support href download
+  * fixed system menu for ios safari
+  * refactoring
+  * quality slider
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 10 Oct 2018 00:51:39 +0300
+
+kvmd (0.78) unstable; urgency=low
+
+  * Bump version: 0.77 → 0.78
+  * renamed platform configs
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 7 Oct 2018 22:47:50 +0300
+
+kvmd (0.77) unstable; urgency=low
+
+  * Bump version: 0.76 → 0.77
+  * web: auto-resize stream
+  * EDID: removed audio, 1400x480 and fixed 1024x768
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 7 Oct 2018 18:35:59 +0300
+
+kvmd (0.76) unstable; urgency=low
+
+  * Bump version: 0.75 → 0.76
+  * show fps in stream header
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 6 Oct 2018 02:22:50 +0300
+
+kvmd (0.75) unstable; urgency=low
+
+  * Bump version: 0.74 → 0.75
+  * hid pinout
+  * msd pinout
+  * imroved pak
+  * minor html fixes
+  * added stream info to window head
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 5 Oct 2018 20:32:04 +0300
+
+kvmd (0.74) unstable; urgency=low
+
+  * Bump version: 0.73 → 0.74
+  * --drop-same-frames works fine
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 4 Oct 2018 16:04:59 +0300
+
+kvmd (0.73) unstable; urgency=low
+
+  * Bump version: 0.72 → 0.73
+  * improved hotkeys menu
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 2 Oct 2018 23:36:58 +0300
+
+kvmd (0.72) unstable; urgency=low
+
+  * Bump version: 0.71 → 0.72
+  * wheel fix
+  * streamer: read full stdout
+  * v2 config: --drop-same-frames=3
+  * hid: readNoop()
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 2 Oct 2018 13:29:51 +0300
+
+kvmd (0.71) unstable; urgency=low
+
+  * Bump version: 0.70 → 0.71
+  * improved hid protocol
+  * fixed device path for kvmd-tc358743.service
+  * screenshot using web ui
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 29 Sep 2018 07:34:00 +0300
+
+kvmd (0.70) unstable; urgency=low
+
+  * Bump version: 0.69 → 0.70
+  * added service and edid for tc358743
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 28 Sep 2018 07:19:38 +0300
+
+kvmd (0.69) unstable; urgency=low
+
+  * Bump version: 0.68 → 0.69
+  * some fixes for ustreamer
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 28 Sep 2018 06:14:57 +0300
+
+kvmd (0.68) unstable; urgency=low
+
+  * Bump version: 0.67 → 0.68
+  * using cpu encoder on v1
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 26 Sep 2018 06:03:59 +0300
+
+kvmd (0.67) unstable; urgency=low
+
+  * Bump version: 0.66 → 0.67
+  * moved kvmd to the root
+  * moved os to pi-kvm/os
+  * fixed Makefile
+  * hw moved to pi-kvm/hardware
+  * moved hid to kvmd
+  * v2 beta
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 26 Sep 2018 03:48:14 +0300
+
+kvmd (0.66) unstable; urgency=low
+
+  * Bump version: 0.65 → 0.66
+  * touch improvements
+  * ios safari fixes
+  * fixed broken aur nginx lua module
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 9 Sep 2018 01:31:26 +0300
+
+kvmd (0.65) unstable; urgency=low
+
+  * Bump version: 0.64 → 0.65
+  * fixed nginx-lua pkg
+  * mobile fixes
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 6 Sep 2018 01:06:16 +0300
+
+kvmd (0.64) unstable; urgency=low
+
+  * Bump version: 0.63 → 0.64
+  * compact mobile keyboard
+  * testing mouse buttons for touch interface
+  * using SingleAbsoluteMouse()
+  * unifised urls without binding to mjpg_streamer
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 2 Sep 2018 20:09:07 +0300
+
+kvmd (0.63) unstable; urgency=low
+
+  * Bump version: 0.62 → 0.63
+  * escape/enter events in modal
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 27 Aug 2018 21:14:01 +0300
+
+kvmd (0.62) unstable; urgency=low
+
+  * Bump version: 0.61 → 0.62
+  * modal dialog processing like a window
+  * refactoring
+  * own modals - first implementation
+  * refactoring
+  * some mobile improvements
+  * separated reset and resolution
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 27 Aug 2018 14:49:15 +0300
+
+kvmd (0.61) unstable; urgency=low
+
+  * Bump version: 0.60 → 0.61
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 24 Aug 2018 08:28:13 +0300
+
+kvmd (0.60) unstable; urgency=low
+
+  * Bump version: 0.59 → 0.60
+  * don't loose focus on stream resizing
+  * configurable stream resolution
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 24 Aug 2018 08:24:20 +0300
+
+kvmd (0.59) unstable; urgency=low
+
+  * Bump version: 0.58 → 0.59
+  * no ie allowed
+  * setproctitle
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 20 Aug 2018 07:51:23 +0300
+
+kvmd (0.58) unstable; urgency=low
+
+  * Bump version: 0.57 → 0.58
+  * touch events as mouse - test
+  * two-way communication between hid and kvmd
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 20 Aug 2018 01:03:16 +0300
+
+kvmd (0.57) unstable; urgency=low
+
+  * Bump version: 0.56 → 0.57
+  * full touch support for keyboard
+  * removed ontouchcancel from ui
+  * disabled mobile hover on menubar
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 19 Aug 2018 19:19:25 +0300
+
+kvmd (0.56) unstable; urgency=low
+
+  * Bump version: 0.55 → 0.56
+  * nginx-mainline-mod-lua-fixedrepo
+  * tablet style
+  * refactoring
+  * delay to avoid press hang
+  * supported python 3.7
+  * using mjpg-streamer package
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 19 Aug 2018 04:12:17 +0300
+
+kvmd (0.55) unstable; urgency=low
+
+  * Bump version: 0.54 → 0.55
+  * highlight grabbed window header
+  * ui: touchscreens support
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 17 Aug 2018 21:30:10 +0300
+
+kvmd (0.54) unstable; urgency=low
+
+  * Bump version: 0.53 → 0.54
+  * proxy params, ssl permissins and mime types
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 16 Aug 2018 23:31:22 +0300
+
+kvmd (0.53) unstable; urgency=low
+
+  * Bump version: 0.52 → 0.53
+  * passing BUILD_OPTS into pi-builder
+  * fixed stream window centering
+  * fixed menubar in safari
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 13 Aug 2018 10:29:54 +0300
+
+kvmd (0.52) unstable; urgency=low
+
+  * Bump version: 0.51 → 0.52
+  * refactoring
+  * refactoring
+  * connecting state for link led
+  * abs path in nginx.conf
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 13 Aug 2018 04:02:57 +0300
+
+kvmd (0.51) unstable; urgency=low
+
+  * Bump version: 0.50 → 0.51
+  * Workaround for Safari + Websockets + basic auth
+  * fixed os hostname
+  * for new pi-builder
+  * encrypted htpasswd
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 11 Aug 2018 04:14:35 +0300
+
+kvmd (0.50) unstable; urgency=low
+
+  * Bump version: 0.49 → 0.50
+  * password auth for webui
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 10 Aug 2018 00:18:33 +0300
+
+kvmd (0.49) unstable; urgency=low
+
+  * Bump version: 0.48 → 0.49
+  * common config for prod and testing
+  * fixed path to nginx.conf
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 9 Aug 2018 05:22:28 +0300
+
+kvmd (0.48) unstable; urgency=low
+
+  * Bump version: 0.47 → 0.48
+  * using https with self-signed cert
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 9 Aug 2018 04:08:54 +0300
+
+kvmd (0.47) unstable; urgency=low
+
+  * Bump version: 0.46 → 0.47
+  * $$ as document.getElementsByClassName()
+  * paste-as-keys
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 9 Aug 2018 01:16:12 +0300
+
+kvmd (0.46) unstable; urgency=low
+
+  * Bump version: 0.45 → 0.46
+  * enable_uart=1
+  * web linting
+  * quick hack for mac cmd key
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 7 Aug 2018 19:59:12 +0300
+
+kvmd (0.45) unstable; urgency=low
+
+  * Bump version: 0.44 → 0.45
+  * vulture fix
+  * adjustable stream size
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 7 Aug 2018 00:15:25 +0300
+
+kvmd (0.44) unstable; urgency=low
+
+  * Bump version: 0.43 → 0.44
+  * pi-builder update
+  * pragma once for keymap.h
+  * using boot keyboard
+  * fixed mjpg stucking
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 3 Aug 2018 05:26:37 +0300
+
+kvmd (0.43) unstable; urgency=low
+
+  * Bump version: 0.42 → 0.43
+  * mouse support
+  * eq fix
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 1 Aug 2018 17:36:17 +0300
+
+kvmd (0.42) unstable; urgency=low
+
+  * Bump version: 0.41 → 0.42
+  * w3 fixes
+  * pretty stream stub
+  * some ui fixes
+  * js-based windows centering
+  * removed old prefixed css
+  * fixed windows positioning
+  * log prefixes
+  * top menu border
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 1 Aug 2018 00:57:12 +0300
+
+kvmd (0.41) unstable; urgency=low
+
+  * Bump version: 0.40 → 0.41
+  * close menues on start dragging windows
+  * focus fixes
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 29 Jul 2018 19:23:12 +0300
+
+kvmd (0.40) unstable; urgency=low
+
+  * Bump version: 0.39 → 0.40
+  * esc menu fix
+  * css vars refactoring
+  * pretty menu selecting
+  * close menues using esc key
+  * interactive hid leds
+  * refactoring
+  * fucusable windows
+  * fan animation
+  * shortcut for ctrl+w
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 28 Jul 2018 17:04:32 +0300
+
+kvmd (0.39) unstable; urgency=low
+
+  * Bump version: 0.38 → 0.39
+  * refactoring
+  * about window
+  * windows control
+  * hid fix
+  * added pause and scrlk keys
+  * release keys when window loosing focus
+  * fixed some keyboard corner cases
+  * new repo url
+  * printscreen as modifier and alt-sysrq shortcuts for linux
+  * shortcuts menu
+  * disabled keys repeat
+  * hold modifiers on mouse click
+  * simplified hid
+  * windows stack
+  * cleanup
+  * refactoring
+  * added fan icon
+  * virtual keyboard prototype
+  * floating windows
+  * refactoring
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 28 Jul 2018 01:32:29 +0300
+
+kvmd (0.38) unstable; urgency=low
+
+  * Bump version: 0.37 → 0.38
+  * platform info
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 23 Jul 2018 03:22:29 +0300
+
+kvmd (0.37) unstable; urgency=low
+
+  * Bump version: 0.36 → 0.37
+  * smart menubar
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 22 Jul 2018 18:02:55 +0300
+
+kvmd (0.36) unstable; urgency=low
+
+  * Bump version: 0.35 → 0.36
+  * favicon
+  * ui fixes
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 22 Jul 2018 07:39:00 +0300
+
+kvmd (0.35) unstable; urgency=low
+
+  * Bump version: 0.34 → 0.35
+  * menu by click
+  * ui fixes
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 22 Jul 2018 05:31:25 +0300
+
+kvmd (0.34) unstable; urgency=low
+
+  * Bump version: 0.33 → 0.34
+  * minor ui fixes
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 21 Jul 2018 12:43:08 +0300
+
+kvmd (0.33) unstable; urgency=low
+
+  * Bump version: 0.32 → 0.33
+  * ui fixes
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 21 Jul 2018 11:34:32 +0300
+
+kvmd (0.32) unstable; urgency=low
+
+  * Bump version: 0.31 → 0.32
+  * msd ui
+  * refactoring
+  * web: sans-serif
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 21 Jul 2018 08:37:22 +0300
+
+kvmd (0.31) unstable; urgency=low
+
+  * Bump version: 0.30 → 0.31
+  * grouped buttons and icons
+  * refactoring
+  * fixed broadcast
+  * dark theme
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 17 Jul 2018 05:19:47 +0300
+
+kvmd (0.30) unstable; urgency=low
+
+  * Bump version: 0.29 → 0.30
+  * real-time icons and buttons state
+  * fixed msd deadlock
+  * pretty ui
+  * improved css, animated led-msd-writing
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 17 Jul 2018 00:44:56 +0300
+
+kvmd (0.29) unstable; urgency=low
+
+  * Bump version: 0.28 → 0.29
+  * svg icons
+  * minor js fixes
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 16 Jul 2018 09:42:58 +0300
+
+kvmd (0.28) unstable; urgency=low
+
+  * Bump version: 0.27 → 0.28
+  * minor js fix
+  * initial restart streamer for crappy video devices
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 15 Jul 2018 12:42:31 +0300
+
+kvmd (0.27) unstable; urgency=low
+
+  * Bump version: 0.26 → 0.27
+  * big js refactoring
+  * kvmd: fixed pong, removed echo
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 15 Jul 2018 11:22:03 +0300
+
+kvmd (0.26) unstable; urgency=low
+
+  * Bump version: 0.25 → 0.26
+  * improved js
+  * client-side ping-pong
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 14 Jul 2018 05:27:32 +0300
+
+kvmd (0.25) unstable; urgency=low
+
+  * Bump version: 0.24 → 0.25
+  * refactoring
+  * unified aioregion logic
+  * better ui
+  * exclusive region-based access for soma apis
+  * better ui
+  * improved error handling on server-side
+  * hid: fixed serial address
+  * pretty cursor for stream
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 13 Jul 2018 22:53:02 +0000
+
+kvmd (0.24) unstable; urgency=low
+
+  * Bump version: 0.23 → 0.24
+  * changed hid protocol, added mouse support for hid
+  * platformio update
+  * hid: using KEY_ERROR_UNDEFINED instead of 0
+  * move_to -> to
+  * client-side for mouse wheel
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 13 Jul 2018 07:34:55 +0000
+
+kvmd (0.23) unstable; urgency=low
+
+  * Bump version: 0.22 → 0.23
+  * improved PKGBUILD
+  * client-side for mouse
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 13 Jul 2018 05:16:18 +0000
+
+kvmd (0.22) unstable; urgency=low
+
+  * Bump version: 0.21 → 0.22
+  * todo
+  * dynamic stream resolution
+  * hack for correct screen resolution
+  * refactoring
+  * fast rebuild
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 13 Jul 2018 02:28:57 +0000
+
+kvmd (0.21) unstable; urgency=low
+
+  * Bump version: 0.20 → 0.21
+  * fixed atx clicking
+  * optimized os rebuild
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 12 Jul 2018 03:33:17 +0000
+
+kvmd (0.20) unstable; urgency=low
+
+  * Bump version: 0.19 → 0.20
+  * better web
+  * using PAL for correct resolution
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Thu, 12 Jul 2018 02:33:17 +0000
+
+kvmd (0.19) unstable; urgency=low
+
+  * Bump version: 0.18 → 0.19
+  * improved web
+  * removed unused gpio init
+  * fixed some seds
+  * fixed keymapping
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 11 Jul 2018 23:33:20 +0000
+
+kvmd (0.18) unstable; urgency=low
+
+  * Bump version: 0.17 → 0.18
+  * using HID-Project library
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 11 Jul 2018 05:29:56 +0000
+
+kvmd (0.17) unstable; urgency=low
+
+  * Bump version: 0.16 → 0.17
+  * added PKGBUILD to deps
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 11 Jul 2018 00:08:15 +0000
+
+kvmd (0.16) unstable; urgency=low
+
+  * Bump version: 0.15 → 0.16
+  * arduino-based hid
+  * refactoring
+  * ps2keyboard -> keyboard
+  * js key -> ps2 keycodes
+  * web: prevent default handler on key event
+  * moar keyboard
+  * fixed os build AGAIN
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Wed, 11 Jul 2018 00:07:23 +0000
+
+kvmd (0.15) unstable; urgency=low
+
+  * Bump version: 0.14 → 0.15
+  * some keyboard code
+  * fixed rebuild. again.
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 9 Jul 2018 05:32:39 +0000
+
+kvmd (0.14) unstable; urgency=low
+
+  * Bump version: 0.13 → 0.14
+  * grammar fix
+  * better msd api; refactoring
+  * msd: chunk_size=65536 for better performance
+  * msd: absolute real path
+  * fixed os build
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 9 Jul 2018 03:32:45 +0000
+
+kvmd (0.13) unstable; urgency=low
+
+  * Bump version: 0.12 → 0.13
+  * msd: image complete flag
+  * nginx inside testenv
+  * env hack
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Mon, 9 Jul 2018 00:11:49 +0000
+
+kvmd (0.12) unstable; urgency=low
+
+  * Bump version: 0.11 → 0.12
+  * test environment for docker
+  * moved kvmd.service to configs dir
+  * build fresh os image with a new kvmd
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 8 Jul 2018 06:29:41 +0000
+
+kvmd (0.11) unstable; urgency=low
+
+  * Bump version: 0.10 → 0.11
+  * moved main configs to kvmd package
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sun, 8 Jul 2018 01:33:27 +0000
+
+kvmd (0.10) unstable; urgency=low
+
+  * Bump version: 0.9 → 0.10
+  * udev instead own bycicles
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 7 Jul 2018 23:38:23 +0000
+
+kvmd (0.9) unstable; urgency=low
+
+  * Bump version: 0.8 → 0.9
+  * new pi-builder
+  * bind for streamer device
+  * optional cap power, init delay
+  * refactoring
+  * new pi-builder
+  * renamed locations
+  * wscli: timestamps
+  * msd: reread device info while writing
+  * fixed os freezes
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 7 Jul 2018 06:08:12 +0000
+
+kvmd (0.8) unstable; urgency=low
+
+  * Bump version: 0.7 → 0.8
+  * fixed cleanup script
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 3 Jul 2018 01:13:34 +0300
+
+kvmd (0.7) unstable; urgency=low
+
+  * Bump version: 0.6 → 0.7
+  * refactoring
+  * pc -> server
+  * msd: write image meta (name) to the last 4096 bytes of disk
+  * better api, refactoring
+  * refactoring
+  * using run_in_executor() for os.fsync()
+  * msd chunk_size is 8192 for speed
+  * test implementation of mass-storage device
+  * fixed build v1
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Tue, 3 Jul 2018 01:05:47 +0300
+
+kvmd (0.6) unstable; urgency=low
+
+  * Bump version: 0.5 → 0.6
+  * fixed cleanup
+  * reorganized project structure
+  * gpio: fixed set_output initial
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 30 Jun 2018 06:28:35 +0300
+
+kvmd (0.5) unstable; urgency=low
+
+  * Bump version: 0.4 → 0.5
+  * setup.py: fixed packages
+  * make scan
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 30 Jun 2018 00:55:24 +0300
+
+kvmd (0.4) unstable; urgency=low
+
+  * Bump version: 0.3 → 0.4
+  * refactoring
+  * improved streamer killing
+  * refactoring
+  * RESTART_VIDEO command
+  * fixed kvmd path in systemd unit
+  * improved nginx config
+  * fixed os/clean-all
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Sat, 30 Jun 2018 00:18:22 +0300
+
+kvmd (0.3) unstable; urgency=low
+
+  * Bump version: 0.2 → 0.3
+  * fixed kvmd.service name
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 29 Jun 2018 01:50:39 +0300
+
+kvmd (0.2) unstable; urgency=low
+
+  * Bump version: 0.1 → 0.2
+  * fixed bumpversion
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 29 Jun 2018 01:23:44 +0300
+
+kvmd (0.1) unstable; urgency=low
+
+  * fixed bumpversion
+  * temporary commented tox for build
+  * LICENSE
+  * fixed build
+  * build
+  * refactoring
+  * fixed import
+  * pretty logging
+  * ps/2 keyboard prototype
+  * try to find and kill mjpg_streamer
+  * fixed gpio context manager
+  * systemd service
+  * refactoring and graceful self-kill
+  * refactoring
+  * extra -> extras
+  * gpio wrapper
+  * cleanup script and refactoring
+  * kvmd extra package
+  * using default logger
+  * wscli: changed default url
+  * delayed shutdown of streamer
+  * removed streamer events
+  * usefull stuff for kvmd
+  * os building environ
+
+ -- Devaev Maxim <mdevaev@gmail.com>  Fri, 29 Jun 2018 00:45:02 +0300
