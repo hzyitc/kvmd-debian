@@ -182,7 +182,8 @@ class _GadgetConfig:
             _chown(join(func_path, "lun.0/cdrom"), user)
             _chown(join(func_path, "lun.0/ro"), user)
             _chown(join(func_path, "lun.0/file"), user)
-            _chown(join(func_path, "lun.0/forced_eject"), user)
+            if os.path.exists(join(func_path, "lun.0/forced_eject")):
+                _chown(join(func_path, "lun.0/forced_eject"), user)
         _symlink(func_path, join(self.__profile_path, func))
         name = ("Mass Storage Drive" if self.__msd_instance == 0 else f"Extra Drive #{self.__msd_instance}")
         self.__create_meta(func, name)
