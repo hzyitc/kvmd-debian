@@ -376,7 +376,7 @@ def _get_config_scheme() -> Dict:
                 "meta":   Option("/etc/kvmd/meta.yaml",    type=valid_abs_file),
                 "extras": Option("/usr/share/kvmd/extras", type=valid_abs_dir),
                 "hw": {
-                    "vcgencmd_cmd":  Option(["/opt/vc/bin/vcgencmd"], type=valid_command),
+                    "vcgencmd_cmd":  Option(["/opt/vc/bin/vcgencmd"]),
                     "state_poll":    Option(10.0,  type=valid_float_f01),
                 },
                 "fan": {
@@ -463,7 +463,7 @@ def _get_config_scheme() -> Dict:
 
             "ocr": {
                 "langs":    Option(["eng"], type=valid_string_list, unpack_as="default_langs"),
-                "tessdata": Option("/usr/share/tessdata", type=valid_stripped_string_not_empty, unpack_as="data_dir_path")
+                "tessdata": Option("/usr/share/tesseract-ocr/4.00/tessdata", type=valid_stripped_string_not_empty, unpack_as="data_dir_path")
             },
 
             "snapshot": {
