@@ -53,10 +53,11 @@ class Drive:
     # =====
 
     def set_image_path(self, path: str) -> None:
-        if path:
+        if path or not self.__has_param("forced_eject"):
             self.__set_param("file", path)
         else:
-            self.__set_param("forced_eject", "")
+            if os.path.exists(os.path.join(self.__lun_path, "forced_eject")):
+                self.__set_param("forced_eject", "")
 
     def get_image_path(self) -> str:
         return self.__get_param("file")
@@ -74,6 +75,9 @@ class Drive:
         return (not int(self.__get_param("ro")))
 
     # =====
+
+    def __has_param(self, param: str) -> bool:
+        return os.path.exists(os.path.join(self.__lun_path, param))
 
     def __get_param(self, param: str) -> str:
         with open(os.path.join(self.__lun_path, param)) as param_file:
