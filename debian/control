@@ -1,0 +1,68 @@
+Source: kvmd
+Section: misc
+Priority: optional
+Maintainer: Maxim Devaev <mdevaev@gmail.com>
+Build-Depends: debhelper (>= 9), dh-exec, dh-python, python3-setuptools,
+				python3-all,
+				python3-yaml,
+				python3-aiohttp,
+				python3-aiofiles,
+				python3-passlib,
+				python3-periphery,
+				python3-serial,
+				python3-serial-asyncio,
+				python3-setproctitle,
+				python3-psutil,
+				python3-netifaces,
+				python3-systemd,
+				python3-dbus,
+				python3-pygments,
+				python3-pyghmi,
+				python3-pam,
+				python3-pil,
+				python3-xlib,
+				python3-hidapi,
+				python3-six,
+				python3-pyrad,
+				python3-libgpiod
+Homepage: https://github.com/pikvm/kvmd
+
+Package: python3-kvmd
+Provides: kvmd
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends},
+			python3-yaml,
+			python3-aiohttp,
+			python3-aiofiles,
+			python3-passlib,
+			python3-periphery,
+			python3-serial,
+			python3-serial-asyncio,
+			python3-setproctitle,
+			python3-psutil,
+			python3-netifaces,
+			python3-systemd,
+			python3-dbus,
+			python3-pygments,
+			python3-pyghmi,
+			python3-pam,
+			python3-pil,
+			python3-xlib,
+			python3-hidapi,
+			python3-six,
+			python3-pyrad,
+			python3-libgpiod,
+			v4l-utils,
+			nginx,
+			sudo,
+			iptables,
+			iproute2,
+			janus,
+			ustreamer,
+			tesseract-ocr
+Description: The main Pi-KVM daemon
+
+Package: kvmd-platform-v2-hdmiusb-generic
+Architecture: all
+Depends: kvmd
+Description: PiKVM platform configs - v2-hdmiusb for generic

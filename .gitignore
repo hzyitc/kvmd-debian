@@ -21,3 +21,11 @@
 *.pyc
 *.swp
 /venv/
+
+/.pybuild/
+/debian/*.log
+/debian/*.debhelper
+/debian/*.substvars
+/debian/python3-kvmd/
+/debian/kvmd-platform-*/
+/debian/files
