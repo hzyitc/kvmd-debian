@@ -57,10 +57,9 @@ class HwInfoSubmanager(BaseInfoSubmanager):
 
         self.__dt_cache: Dict[str, str] = {}
 
-    async def get_state(self) -> Dict:
-        (model, serial, cpu_temp, throttling) = await asyncio.gather(
+    async def get_state(self) -> dict:
+        (model, cpu_temp, throttling) = await asyncio.gather(
             self.__read_dt_file("model"),
-            self.__read_dt_file("serial-number"),
             self.__get_cpu_temp(),
             self.__get_throttling(),
         )
@@ -68,7 +67,6 @@ class HwInfoSubmanager(BaseInfoSubmanager):
             "platform": {
                 "type": "rpi",
                 "base": model,
-                "serial": serial,
             },
             "health": {
                 "temp": {
@@ -109,10 +107,7 @@ class HwInfoSubmanager(BaseInfoSubmanager):
 
     async def __get_throttling(self) -> Optional[Dict]:
         # https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=147781&start=50#p972790
-        flags = await self.__parse_vcgencmd(
-            arg="get_throttled",
-            parser=(lambda text: int(text.split("=")[-1].strip(), 16)),
-        )
+        flags = 0x00000000
         if flags is not None:
             return {
                 "raw_flags": flags,

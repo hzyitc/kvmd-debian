@@ -38,7 +38,7 @@ kvmd:
             - "/usr/bin/ustreamer"
             - "--device=/dev/kvmd-video"
             - "--persistent"
-            - "--format=mjpeg"
+            - "--format=jpeg"
             - "--resolution={resolution}"
             - "--desired-fps={desired_fps}"
             - "--drop-same-frames=30"
