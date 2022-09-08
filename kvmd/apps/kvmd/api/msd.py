@@ -29,7 +29,6 @@ from typing import Optional
 from typing import Union
 
 import aiohttp
-import zstandard
 
 from aiohttp.web import Request
 from aiohttp.web import Response
@@ -96,8 +95,14 @@ class MsdApi:
             "": ("", None),
             "none": ("", None),
             "lzma": (".xz", (lambda: lzma.LZMACompressor())),  # pylint: disable=unnecessary-lambda
-            "zstd": (".zst", (lambda: zstandard.ZstdCompressor().compressobj())),  # pylint: disable=unnecessary-lambda
         }
+
+        try:
+            zstandard = __import__("zstandard")
+            compressors["zstandard"] = (".zst", (lambda: zstandard.ZstdCompressor().compressobj()))  # pylint: disable=unnecessary-lambda
+        except Exception:
+            pass
+
         (suffix, make_compressor) = compressors[check_string_in_list(
             arg=request.query.get("compress", ""),
             name="Compression mode",

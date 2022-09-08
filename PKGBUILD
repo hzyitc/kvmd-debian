@@ -59,7 +59,6 @@ depends=(
 	python-hidapi
 	python-six
 	python-pyrad
-	python-zstandard
 	libgpiod
 	freetype2
 	"v4l-utils>=1.22.1-1"
@@ -102,6 +101,7 @@ depends=(
 	hostapd
 )
 optdepends=(
+	python-zstandard
 	tesseract
 )
 conflicts=(
