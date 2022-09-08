@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+include /usr/share/dpkg/pkg-info.mk
+
+export PYBUILD_DESTDIR=debian/python3-kvmd
+
+%:
+	dh $@ --parallel --with python3 --buildsystem=pybuild
+
+override_dh_builddeb:
+	dh_builddeb -- -Zxz
