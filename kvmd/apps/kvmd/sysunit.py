@@ -26,38 +26,38 @@ from typing import Tuple
 from typing import Type
 from typing import Optional
 
-import dbus_next
-import dbus_next.aio
-import dbus_next.aio.proxy_object
-import dbus_next.introspection
-import dbus_next.errors
+import dbus
+import dbus.exceptions
+
+from ... import aiotools
 
 
 # =====
 class SystemdUnitInfo:
     def __init__(self) -> None:
-        self.__bus: Optional[dbus_next.aio.MessageBus] = None
-        self.__intr: Optional[dbus_next.introspection.Node] = None
-        self.__manager: Optional[dbus_next.aio.proxy_object.ProxyInterface] = None
+        self.__bus: Optional[dbus.SystemBus] = None
+        self.__manager: Optional[dbus.Interface] = None
 
     async def get_status(self, name: str) -> Tuple[bool, bool]:
         assert self.__bus is not None
-        assert self.__intr is not None
         assert self.__manager is not None
 
         if not name.endswith(".service"):
             name += ".service"
 
+        return await aiotools.run_async(self.__inner_get_status, name)
+
+    def __inner_get_status(self, name: str) -> Tuple[bool, bool]:
         try:
-            unit_p = await self.__manager.call_get_unit(name)  # type: ignore
-            unit = self.__bus.get_proxy_object("org.freedesktop.systemd1", unit_p, self.__intr)
-            unit_props = unit.get_interface("org.freedesktop.DBus.Properties")
-            started = ((await unit_props.call_get("org.freedesktop.systemd1.Unit", "ActiveState")).value == "active")  # type: ignore
-        except dbus_next.errors.DBusError as err:
-            if err.type != "org.freedesktop.systemd1.NoSuchUnit":
+            unit_p = self.__manager.GetUnit(name)
+            unit = self.__bus.get_object("org.freedesktop.systemd1", unit_p)
+            unit_props = dbus.Interface(unit, dbus_interface="org.freedesktop.DBus.Properties")
+            started = (unit_props.Get("org.freedesktop.systemd1.Unit", "ActiveState") == "active")
+        except dbus.exceptions.DBusException as err:
+            if "NoSuchUnit" not in str(err):
                 raise
             started = False
-        enabled = ((await self.__manager.call_get_unit_file_state(name)) in [  # type: ignore
+        enabled = (self.__manager.GetUnitFileState(name) in [
             "enabled",
             "enabled-runtime",
             "static",
@@ -67,10 +67,12 @@ class SystemdUnitInfo:
         return (enabled, started)
 
     async def open(self) -> None:
-        self.__bus = await dbus_next.aio.MessageBus(bus_type=dbus_next.BusType.SYSTEM).connect()
-        self.__intr = await self.__bus.introspect("org.freedesktop.systemd1", "/org/freedesktop/systemd1")
-        systemd = self.__bus.get_proxy_object("org.freedesktop.systemd1", "/org/freedesktop/systemd1", self.__intr)
-        self.__manager = systemd.get_interface("org.freedesktop.systemd1.Manager")
+        await aiotools.run_async(self.__inner_open)
+
+    def __inner_open(self) -> None:
+        self.__bus = dbus.SystemBus()
+        systemd = self.__bus.get_object("org.freedesktop.systemd1", "/org/freedesktop/systemd1")
+        self.__manager = dbus.Interface(systemd, dbus_interface="org.freedesktop.systemd1.Manager")
 
     async def __aenter__(self) -> "SystemdUnitInfo":
         await self.open()
@@ -79,12 +81,10 @@ class SystemdUnitInfo:
     async def close(self) -> None:
         try:
             if self.__bus is not None:
-                self.__bus.disconnect()
-                await self.__bus.wait_for_disconnect()
+                await aiotools.run_async(self.__bus.close)
         except Exception:
             pass
         self.__manager = None
-        self.__intr = None
         self.__bus = None
 
     async def __aexit__(
